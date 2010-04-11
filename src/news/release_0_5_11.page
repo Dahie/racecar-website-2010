@@ -21,7 +21,7 @@ In this release there are two big changes regarding the internals of webgen:
 2. The default markup language used by the webgen is Markdown and the default processor for
    converting Markdown to HTML has been Maruku for a long time. However, Maruku has some bugs that
    need to be fixed and although it runs under Ruby 1.9 there are some issues. Therefore the new
-   default processor for Markdown will be [kramdown][2] from now on. Aside from being actively
+   default processor for Markdown will be kramdown from now on. Aside from being actively
    maintained, it is about 5x faster than Maruku and runs on Ruby 1.9 without problems.
 
    This means that if you used the default configuration, you will automatically use kramdown from
@@ -33,29 +33,25 @@ In this release there are two big changes regarding the internals of webgen:
 
    The short name `markdown` now also refers to kramdown instead of Maruku.
 
-Aside from the new content processor [kramdown][2], another content processor for [LESS][3] has been
-added and the content processor [head][4] has been updated to handle arbitrary `link` tags. Many
+Aside from the new content processor kramdown, another content processor for has been
+added and the content processor head has been updated to handle arbitrary `link` tags. Many
 bugs have been fixed in this release as well.
 
 *Note*: All deprecated methods have been removed in this release!
 
 
-[2]: ../documentation/contentprocessor/kramdown.html
-[3]: ../documentation/contentprocessor/less.html
-[4]: ../documentation/contentprocessor/head.html
-
 --- name:changes pipeline:tags,kramdown
 
 * Major changes:
 
-  - Added content processor [kramdown][2] (faster Markdown parser)
-  - Added content processor [less][3] (extends CSS with variables, mixins, operations, ...)
-  - Updated content processor [head][4] to allow the specification of arbitrary `link` tags and
+  - Added content processor kramdown (faster Markdown parser)
+  - Added content processor less (extends CSS with variables, mixins, operations, ...)
+  - Updated content processor head to allow the specification of arbitrary `link` tags and
     links to javascript and CSS files by the user
 
 * Minor changes:
 
-  - Added a CSS class to the HTML tag of the currently selected language of [Tag::Langbar][1]
+  - Added a CSS class to the HTML tag of the currently selected language of Tag::Langbar
     (requested by Damien Robert)
   - Removed dependency on facets
   - All deprecated methods have been removed
@@ -78,8 +74,3 @@ bugs have been fixed in this release as well.
     encoding under Ruby 1.9 (reported by Stefano Crocco)
   - Fixed bug in terminal size detection (webgen CLI now works in Emacs shell buffer) (reported by
     Bob Dobbs)
-
-[1]: ../documentation/tag/langbar.html
-[2]: ../documentation/contentprocessor/kramdown.html
-[3]: ../documentation/contentprocessor/less.html
-[4]: ../documentation/contentprocessor/head.html

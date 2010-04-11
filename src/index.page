@@ -1,16 +1,12 @@
 ---
-title: News
-link:
-  alternate:
-    href: news.atom
-    type: application/atom+xml
+title: Home
+in_menu: true
 ---
-# Latest news
+h2. Welcome to *webgen*!
 
-<webgen:block name='content' chain='news.template; release_0_5_11.html' />
+This is just a place holder for the start page for your new website!
 
-# News listing
+You can start by adjusting the meta information for this page file and adding some real content and
+then adding some more page files!
 
-Following is a list of all news entries:
-
-{menu: {used_nodes: files, start_level: 2, max_levels: 1}}
+For more information about webgen have a look at the "documentation":http://webgen.rubyforge.org/documentation/index.html

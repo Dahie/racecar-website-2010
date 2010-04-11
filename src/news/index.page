@@ -1,0 +1,16 @@
+---
+title: News
+link:
+  alternate:
+    href: news.atom
+    type: application/atom+xml
+---
+h1. Latest news
+
+<webgen:block name='content' chain='news.template; release_0_5_12.html' />
+
+h1. News listing
+
+Following is a list of all news entries:
+
+{menu: {used_nodes: files, start_level: 2, max_levels: 1}}
