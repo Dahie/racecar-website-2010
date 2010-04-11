@@ -1,15 +1,16 @@
 ---
-title: Empty Index Page
-in_menu: true
-routed_title: New webgen Website
+title: News
+link:
+  alternate:
+    href: news.atom
+    type: application/atom+xml
 ---
-## Welcome to *webgen*!
+# Latest news
 
-This is just a place holder for the start page for your new website!
+<webgen:block name='content' chain='news.template; release_0_5_11.html' />
 
-You can start by adjusting the meta information for this page file and adding some real content and
-then adding some more page files!
+# News listing
 
-For more information about webgen have a look at the [documentation]!
+Following is a list of all news entries:
 
-[documentation]: http://webgen.rubyforge.org/documentation/index.html
+{menu: {used_nodes: files, start_level: 2, max_levels: 1}}

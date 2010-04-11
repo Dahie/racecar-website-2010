@@ -21,7 +21,7 @@
       <div id="main">
 
         <div id="logo">
-          <h1>[<a href="{relocatable: /index.html}" accesskey="4">your site title</a>]</h1>
+          <h1><a href="{relocatable: /index.html}" accesskey="4">RaceCar</a></h1>
           <span id="tagline">Your striking site slogan!</span>
         </div>
 
@@ -38,10 +38,10 @@
 
         <h3>Regular links</h3>
         <ul class="linklist">
-          <li><a href="http://andreasviklund.com/templates">CTDP Website</a></li>
+          <li><a href="http://www.ctdp.net">CTDP Website</a></li>
           <li><a href="http://oswd.org">SI|Technic</a></li>
-          <li><a href="http://openwebdesign.org">DanielProgramming</a></li>
-          <li><a href="http://andreasviklund.com/music/lagoona">DSTM</a></li>
+          <li><a href="http://danielprogramming.com">DanielProgramming</a></li>
+          <li><a href="http://dstm-racing.org">DSTM</a></li>
         </ul>
 
       </div>

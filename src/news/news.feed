@@ -1,0 +1,11 @@
+---
+title: RaceCarF1 News
+description: RaceCarF1 - Virtual Racing Team
+site_url: http://www.racecarf1.com
+author: Thomas Leitner
+author_url: http://www.si-entertainment.com
+number_of_entries: 10
+rss: true
+atom: true
+entries: [rel*.html]
+

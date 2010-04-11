@@ -1,0 +1,184 @@
+/* andreas03 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use for any purpose as long as the proper credits are given to the original author.
+
+!racecar_blue = #000058
+
+body
+  :margin 0
+  :padding 30px 0
+  :font 76% tahoma,verdana,sans-serif
+  :background-color = !racecar_blue
+  :color #222
+
+#thetop
+  :margin 0
+
+#container
+  :width 820px
+  :margin 0 auto
+  :padding 0
+  :color #222
+
+a
+  :text-decoration none
+  :background-color inherit
+  :color #26c
+  &:hover 
+    :text-decoration underline
+  img
+    :border 0
+p
+  :margin 0 0 15px 0
+  :line-height 1.5em
+
+#logo
+  :float left
+  :width 505px
+  :margin 0 20px 0 0
+  :padding 5px
+  :border 4px solid
+  :border-color #0080ff
+  :text-align left
+  :vertical-align bottom
+  :color #555
+  :overflow auto
+  :background url(images/rc-banner.jpg) no-repeat center center
+  h1
+    :margin 50px 5px 1px 5px
+    :letter-spacing -3px
+  a
+    :background-color inherit
+    :color white
+    :text-decoration none
+    &:hover
+      :background-color inherit
+      :color #69e
+  #tagline
+    :text-align center
+    :font-size 1.2em
+
+#main
+  :float left
+  :width 525px
+  :padding 20px
+  :background-color white
+  :-moz-border-radius  20px
+  :-webkit-border-radius  20px
+  :border-radius  20px
+  h2 
+    :display block
+    :margin 30px 0 10px 0
+    :padding 5px 0 5px 8px
+    :color #222
+    :border-top 1px solid #ddd
+    :border-right 1px solid #bbb
+    :border-bottom 1px solid #bbb
+    :border-left 1px solid #ddd
+    :text-decoration none
+
+  p
+    :padding 0 0 0 10px
+
+#sidebar
+  :width 235px
+  :float right
+  :-moz-border-radius-topright  20px
+  :-webkit-border-top-left-radius  20px
+  :margin-top 40px
+  :padding-top 20px
+  :padding-left 20px
+  :padding-bottom 40px
+  :background-color  white
+  :font-size 1em
+  :line-height 1.3em
+  p
+    :padding 0 0 0 10px
+    :font-size 0.9em
+  ul.linklist
+    :font-size 0.9em
+    :list-style-type  none
+    :margin  0px
+    :padding  5px 0px 5px 8px
+  #menu ul 
+    :list-style-type  none
+    :margin  0px
+    :padding  0px
+    li
+      a
+        :display block
+        :width 140px
+        :margin 3px 10px 2px 0
+        :padding 5px 0 5px 8px
+        :font-size 1.1em
+        :font-weight bold
+        :text-align left
+        :background #eee
+        :-moz-border-radius-topright 20px
+        :-moz-border-radius-bottomright 20px
+        :-webkit-border-radius  20px
+        :color #26c
+        &:hover
+          :background #fff url(images/gradient2.png) repeat-x
+          :color #222
+          :text-decoration none
+        
+/*#sidebar li.webgen-menu-item-selected a,
+/*#sidebar li.webgen-menu-item-selected span,
+/*
+/*  .sidelink
+/*    &:hover, .menuheader
+  
+  
+  
+
+
+
+#footer
+  :margin 0 auto 20px auto
+  :width 860px
+  :padding 0 0 5px 0
+  :font-size 0.9em
+  :color #888
+  :text-align center
+
+h1,h2,h3,h4
+  :margin 0 0 10px 0
+  :font-weight normal
+
+h1
+  :font-size 2.8em
+
+h2
+  :margin 0 0 4px 0
+  :font-size 1.8em
+
+h3
+  :margin 20px 0 8px 0
+  :font-size 1.4em
+
+h4
+  :margin 10px 0 5px 0
+  :font-size 1.2em
+
+.clear
+  :clear both
+  :margin 0
+
+.right
+  :text-align right
+
+.internallink
+  :font-size 0.9em
+  :text-align center
+
+.block
+  :padding 20px
+  :background #eee
+  :color #222
+  :border 2px solid #ddd
+
+.credit
+  :color #888
+  :background-color inherit
+
+.hide
+  :display none

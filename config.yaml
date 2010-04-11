@@ -27,7 +27,7 @@ default_processing_pipeline:
   Page: erb,tags,markdown,blocks,fragments
 
 ## Setting the default language. The argument must be an ISO-639-1/2 language code.
-# website.lang: de
+website.lang: de
 
 ## Adding some extensions to the copy source handler.
 # patterns:
