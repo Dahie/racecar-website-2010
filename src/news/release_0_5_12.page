@@ -1,35 +1,9 @@
 ---
-title: webgen 0.5.12 released
+title: "DSTM: Lauf 6 Rattlesnake"
 in_menu: true
-sort_info: 2010-02-15 10:30:00
-created_at: 2010-02-15 10:30:00 +02:00
-modified_at: 2010-02-15 10:30:00 +02:00
+sort_info: 2010-04-06 16:28:10
+created_at: 2010-04-06 16:28:10 +01:00
+modified_at: 2010-04-06 16:28:10 +01:00
 ---
-<webgen:block name='notes' />
 
-### Changes
-
-<webgen:block name='changes' />
-
---- name:notes pipeline:tags,kramdown
-
-The output of the meta information tag is now escaped by default. This can be changed by
-setting the `tag.metainfo.escape_html` option in the configuration file.
-
-
---- name:changes pipeline:tags,kramdown
-
-* Major changes:
-
-
-* Minor changes:
-
-  - Added a rake task to show outdated translations
-  - Added a configuration option for specifying whether a meta info value should be escaped
-
-* Bug fixes:
-
-  - All error messages now display useful path names (reported by Eric Sunshine)
-  - Fixed another CSS bug with sub directories in style bundle 'andreas07' (reported by Thomas
-    Deselaers)
-  - Fixed problem with unintentionally modified `link` meta information that lead to errors
+Am Ostersonntag fand der 6. Lauf der DSTM in Rattlesnake Point statt. Timo Vollmering kam in einem hart umkämpften Rennen auf dem 4. Platz ins Ziel, Teamkollege Daniel Fredrich schied leider wegen eines Motorschadens aus. Trotzdem werden beim nächsten Lauf in Brianza 3 CTDP RaceCar im ersten Grid der DSTM mitfahren können.

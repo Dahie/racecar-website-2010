@@ -36,7 +36,7 @@
         <div id="menu">{menu: {max_levels: 1, used_nodes: files}}</div>
         <a class="hide" href="#top" accesskey="1">Top of page</a>
 
-        <h3>Regular links</h3>
+        <h3>Partner links</h3>
         <ul class="linklist">
           <li><a href="http://www.ctdp.net">CTDP Website</a></li>
           <li><a href="http://oswd.org">SI|Technic</a></li>

@@ -1,7 +1,7 @@
 /* andreas03 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use for any purpose as long as the proper credits are given to the original author.
 
 !racecar_blue = #000058
-!racecar_cyan = #0080ff
+!racecar_cyan = #00c6ff
 
 body
   :margin 0
@@ -22,7 +22,7 @@ body
 a
   :text-decoration none
   :background-color inherit
-  :color #26c
+  :color = !racecar_blue
   &:hover 
     :text-decoration underline
   img
@@ -88,7 +88,9 @@ p
       :color = !racecar_cyan
     :text-decoration none
   p
-    :padding 0 0 0 10px
+    :padding 0 0 0 12px
+  img
+    :padding 12px
 
 =menu_tabs
   :display block
