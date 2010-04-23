@@ -9,13 +9,40 @@
 #
 
 require 'webgen/webgentask'
+require 'webgen/website'
+require 'gd2'
+require 'net/ftp'
 
 task :default => :webgen
 
+webgen_config = lambda do |config|
+  # you can set configuration options here
+end
+
 Webgen::WebgenTask.new do |website|
   website.clobber_outdir = true
-  website.config_block = lambda do |config|
-    # you can set configuration options here
+  website.config_block = webgen_config
+end
+
+desc "Show outdated translations"
+task :outdated do
+  puts "Listing outdated translations"
+  puts
+  puts "(Note: Information is taken from the last webgen run. To get the"
+  puts "       useful information, run webgen once before this task!)"
+  puts
+
+  website = Webgen::Website.new(Dir.pwd, Webgen::Logger.new($stdout), &webgen_config)
+  website.execute_in_env do
+    website.init
+    website.tree.node_access[:acn].each do |acn, versions|
+      main = versions.find {|v| v.lang == website.config['website.lang']}
+      next unless main
+      outdated = versions.select do |v|
+         main != v && main['modified_at'] > v['modified_at']
+      end.map {|v| v.lang}.join(', ')
+      puts "ACN #{acn}: #{outdated}" if outdated.length > 0
+    end
   end
 end
 
@@ -42,3 +69,94 @@ task :auto_webgen do
     sleep 2
   end
 end
+
+def ftp_files(prefixToRemove, sourceFileList, targetDir, hostname, username, password)
+  Net::FTP.open(hostname, username, password) do |ftp|
+    begin
+      puts "Creating dir #{targetDir}" 
+      ftp.mkdir targetDir
+    rescue 
+      puts $!
+    end
+    sourceFileList.each do |srcFile|    
+      if prefixToRemove
+        targetFile = srcFile.pathmap(("%{^#{prefixToRemove},#{targetDir}}p")) 
+      else
+        targetFile = srcFile.pathmap("#{targetDir}%s%p")
+      end
+      begin
+        puts "Creating dir #{targetFile}" if File.directory?(srcFile)
+        ftp.mkdir targetFile if File.directory?(srcFile)
+      rescue 
+        puts $!
+      end
+      begin
+        puts "Copying #{srcFile} -> #{targetFile}" unless File.directory?(srcFile)
+        ftp.putbinaryfile(srcFile, targetFile) unless File.directory?(srcFile)
+      rescue 
+        puts $!
+      end
+    end
+  end
+end
+
+desc "Regenerate the website and upload to the server"
+task :deploy => [:cleanup] do
+  #task :deploy => [:dist] do
+  puts 'Please enter the FTP password'
+  password = STDIN.gets.chomp
+  ftp_files("out", FileList["out/**/*"], "/site2010", 'ftp.racecarf1.com', 'racecarf1.com', password)
+end
+
+desc "Deletes existing generated data and delets the cache."
+task :cleanup do
+  
+  FileUtils.rm_r 'out' if File.exists? 'out'
+  FileUtils.rm 'webgen.cache' if File.exists? 'webgen.cache'
+end
+
+desc "Generate thumbnails for gallery pictures"
+task :generate_thumbnails do
+  files = FileList.new('out/gallery/**/*.jpg') do |fl|
+    fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
+  end
+  create_thumbnails files
+end
+
+include GD2
+def create_thumbnails(sourceFileList)
+
+  widthx = 200          # default width of generated image
+  heightx = 200         # default height of generated image
+  
+  sourceFileList.each do |srcFile|
+    puts srcFile
+    unless File.directory? srcFile
+      filepath = srcFile    # Path to file
+      
+      format = srcFile.split(".").last   # Format - extension
+      filename = srcFile.split(".").first # just file name without extension
+  
+      i = Image.import(srcFile)
+     
+      if i.size[0] > i.size[1]  # Horizontal proportion. width > height.
+        # prefer smaller image width
+        width = i.size[0] < widthx ? i.size[0] : widthx
+        height = width * i.size[1] / i.size[0]
+      else                      # Vertical proportions
+        height = i.size[1] < heightx ? i.size[1] : heightx
+        width = i.size[0] /(i.size[1] / height) 
+      end
+     
+      i.resize! width, height
+     
+      if format == "gif" then @pic = i.gif
+      elsif format == "png" then @pic = i.png
+      else @pic = i.jpeg 80
+      end
+     
+      i.export filename + "_thumbnail." + format  
+    end
+  end
+end  
+
