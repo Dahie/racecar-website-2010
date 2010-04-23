@@ -101,7 +101,7 @@ def ftp_files(prefixToRemove, sourceFileList, targetDir, hostname, username, pas
 end
 
 desc "Regenerate the website and upload to the server"
-task :deploy => [:cleanup] do
+task :deploy => [:cleanup, :webgen, :generate_thumbnails] do
   #task :deploy => [:dist] do
   puts 'Please enter the FTP password'
   password = STDIN.gets.chomp
@@ -130,7 +130,7 @@ def create_thumbnails(sourceFileList)
   heightx = 200         # default height of generated image
   
   sourceFileList.each do |srcFile|
-    puts srcFile
+    puts "Generate thumbnail of #{srcFile}"
     unless File.directory? srcFile
       filepath = srcFile    # Path to file
       

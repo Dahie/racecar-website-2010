@@ -1,12 +1,8 @@
 ---
 title: Home
 in_menu: true
+sort_info: 1
 ---
-h2. Welcome to *webgen*!
+h2. Willkommen bei RaceCarF1
 
-This is just a place holder for the start page for your new website!
-
-You can start by adjusting the meta information for this page file and adding some real content and
-then adding some more page files!
-
-For more information about webgen have a look at the "documentation":http://webgen.rubyforge.org/documentation/index.html
+RaceCarF1 ist ein virtuelles Motorsport-Team, dass seit vielen Jahren in Online-Ligen verschiedener Rennsimulationen aktiv ist.

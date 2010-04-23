@@ -1,9 +1,10 @@
 ---
 title: RaceCar RC-11
 in_menu: true
+routed_title: Galerie
 ---
 h2. RaceCar RC-11
 
-!images/RC-11/28_thumbnail.jpg!:images/RC-11/28.jpg !images/RC-11/29_thumbnail.jpg!:images/RC-11/29.jpg
-!images/RC-11/30_thumbnail.jpg!:images/RC-11/30.jpg !images/RC-11/31_thumbnail.jpg!:images/RC-11/31.jpg
-!images/RC-11/31_thumbnail.jpg!:images/RC-11/31.jpg !images/RC-11/32_thumbnail.jpg!:images/RC-11/32.jpg
+<%= gallery_image('images/RC-11/28.jpg', 'rel1') %> <%= gallery_image('images/RC-11/29.jpg', 'rel1') %>
+<%= gallery_image('images/RC-11/30.jpg', 'rel1') %> <%= gallery_image('images/RC-11/31.jpg', 'rel1') %>
+<%= gallery_image('images/RC-11/32.jpg', 'rel1') %> <%= gallery_image('images/RC-11/33.jpg', 'rel1') %>
