@@ -31,7 +31,7 @@
       </div>
 
       <div id="sidebar">
-        <img src="{relocatable: /images/rc-logo.png}" />
+        <a href="{relocatable: /index.html}"><img src="{relocatable: /images/rc-logo.png}" /></a>
         <h2 class="sidelink menuheader"><a id="sitemenu"></a>Menü:</h2>
         <div id="menu">{menu: {max_levels: 1, used_nodes: files}}</div>
         <a class="hide" href="#top" accesskey="1">Top of page</a>
