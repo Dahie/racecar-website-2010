@@ -10,7 +10,7 @@
 
 require 'webgen/webgentask'
 require 'webgen/website'
-require 'gd2'
+require 'RMagick'
 require 'net/ftp'
 
 task :default => :webgen
@@ -123,7 +123,6 @@ task :generate_thumbnails do
   create_thumbnails files
 end
 
-include GD2
 def create_thumbnails(sourceFileList)
 
   widthx = 200          # default width of generated image
@@ -137,25 +136,10 @@ def create_thumbnails(sourceFileList)
       format = srcFile.split(".").last   # Format - extension
       filename = srcFile.split(".").first # just file name without extension
   
-      i = Image.import(srcFile)
+      img = Magick::Image::read(srcFile).first
      
-      if i.size[0] > i.size[1]  # Horizontal proportion. width > height.
-        # prefer smaller image width
-        width = i.size[0] < widthx ? i.size[0] : widthx
-        height = width * i.size[1] / i.size[0]
-      else                      # Vertical proportions
-        height = i.size[1] < heightx ? i.size[1] : heightx
-        width = i.size[0] /(i.size[1] / height) 
-      end
-     
-      i.resize! width, height
-     
-      if format == "gif" then @pic = i.gif
-      elsif format == "png" then @pic = i.png
-      else @pic = i.jpeg 80
-      end
-     
-      i.export filename + "_thumbnail." + format  
+      thumb = img.resize_to_fit(widthx, heightx)
+      thumb.write filename + "_thumbnail." + format  
     end
   end
 end  
