@@ -3,8 +3,8 @@ title: Home
 in_menu: true
 sort_info: 1
 ---
-h2. Willkommen bei RaceCarF1
+h2. Willkommen bei RaceCar
 
-RaceCarF1 ist ein virtuelles Motorsport-Team, dass seit vielen Jahren in Online-Ligen verschiedener Rennsimulationen aktiv ist.
+RaceCar ist ein virtuelles Motorsport-Team, das seit vielen Jahren in Online-Ligen verschiedener Rennsimulationen aktiv ist.
 
 <webgen:block name='content' chain='/news/news.template; /news/release_10_04_06_rattlesnake.html' />
