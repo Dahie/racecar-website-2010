@@ -5,10 +5,18 @@ routed_title: Autos
 ---
 h2. Autos
 
-h3. Formula One
+h3. Formel 1
 
-!images/RC-14/GP4/100_thumbnail.jpg!:rc-14.html !images/RC-13/74_thumbnail.jpg!:rc-13.html
-!images/RC-12/81_thumbnail.jpg!:rc-12.html !images/RC-11/28_thumbnail.jpg!:rc-11.html
+*(#rcx15) {link: /gallery/rcx-15.html}
+*(#rc14) {link: /gallery/rc-14.html}
+*(#rc13) {link: /gallery/rc-13.html}
+*(#rc12) {link: /gallery/rc-12.html}
+*(#rc11) {link: /gallery/rc-11.html}
+*(#rc10) {link: /gallery/rc-10.html}
+*(#rc09) {link: /gallery/rc-09.html}
+*(#rc07) {link: /gallery/rc-07.html}
+
 
 h3. DSTM/Cylon
 
+*(#rc09cy) {link: /gallery/rc-09-cy.html}
