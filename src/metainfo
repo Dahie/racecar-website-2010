@@ -6,7 +6,7 @@ cars/:
 
 gallery/:
   in_menu: true
-  sort_info: 4
+  sort_info: 3
   
 news/:
   in_menu: true
