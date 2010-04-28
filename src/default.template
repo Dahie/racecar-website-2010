@@ -8,6 +8,8 @@
     <meta name="author" content="Daniel Senff  / Original design: Daniel Senff - http://danielsenff.de/" />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
     <link rel="stylesheet" type="text/css" href="{relocatable: default.css}" />
+    <link rel="shortcut icon" href="{relocatable: /images/favicon.ico}" />
+
     <title>RaceCar - {title: }</title>
   </head>
 
