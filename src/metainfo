@@ -1,10 +1,6 @@
 --- name:alcn
 
 cars/:
-  in_menu: false
-  sort_info: 3
-
-gallery/:
   in_menu: true
   sort_info: 3
   

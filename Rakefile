@@ -117,7 +117,7 @@ end
 
 desc "Generate thumbnails for gallery pictures"
 task :generate_thumbnails do
-  files = FileList.new('out/gallery/**/*.jpg') do |fl|
+  files = FileList.new('out/cars/**/*.jpg') do |fl|
     fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
   end
   create_thumbnails files
