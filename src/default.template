@@ -8,7 +8,7 @@
     <meta name="author" content="Daniel Senff  / Original design: Daniel Senff - http://danielsenff.de/" />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
     <link rel="stylesheet" type="text/css" href="{relocatable: default.css}" />
-    <title>RaceCarF1 - {title: }</title>
+    <title>RaceCar - {title: }</title>
   </head>
 
   <body>
@@ -39,7 +39,7 @@
         <h3>Partnerlinks</h3>
         <ul class="linklist">
           <li><a href="http://www.ctdp.net">CTDP Website</a></li>
-          <li><a href="http://www.si-entertainment.com">SI|Technic</a></li>
+          <li><a href="http://www.si-entertainment.com">SI|Technics</a></li>
           <li><a href="http://www.danielprogramming.com">DanielProgramming</a></li>
           <li><a href="http://www.dstm-racing.de">DSTM</a></li>
         </ul>
