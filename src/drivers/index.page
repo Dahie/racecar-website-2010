@@ -7,34 +7,48 @@ h2. Fahrer und Serien
 
 RaceCar startet in verschiedenen Rennserien. Hier ein Überblick über die Rennserien in denen RaceCar startet und die Fahrer des Teams.
 
-h2. 24 heures de la Sarthe
+h3. 24 heures de la Sarthe
 
-TEXT
+Virtual Simracing organisiert als eine der wenigen Ligen weltweit virtuelle 24 Stunden Rennen, so auch die 24 heures de la Sarthe. Hier starten die Teams in zwei Fahrzeugkategorien und jeweils 4 bis 6 Fahrern pro Auto zu einem Rennen einmal rund um die Uhr. 2010 geht RaceCar zum ersten Mal an den Start.
 
-h3. Fahrer
+h4. Fahrer
 
 * #XX {link: /drivers/fredrich.html}
 * #XX {link: /drivers/jruden.html}
 * #XX {link: /drivers/mruden.html}
 
-h2. Deutsche Simracing Tourenwagenmeisterschaft
+h4. Fahrzeug
+
+Das Einsatzfahrzeug bei den 24 heures de la Sarthe ist noch nicht bekanntgegeben.
+
+h3. Deutsche Simracing Tourenwagenmeisterschaft
 
 Die Deutsche Simracing Tourenwagenmeisterschaft DSTM wird in der Saison 2009/2010 zum ersten Mal im Rahmen des Simracing Deutschland e.V. ausgetragen. Die Serie finanziert sich über Sponsoren sowie Mitgliedsbeiträge. Gefahren wird mit eigens für die DSTM entwickelten Einheitstourenwagen mit Frontantrieb. Die Rennen finden einmal im Monat in zwei Starterfeldern statt.
 
 RaceCar tritt in der Saison 2009/2010 als Partner des Cars and Tracks Development Projects als CTDP RaceCar mit 4 Fahrern an.
 
-h3. Fahrer
+h4. Fahrer
 
 * #24 {link: /drivers/fredrich.html}
 * #31 {link: /drivers/neidhardt.html}
 * #43 {link: /drivers/vollmering.html}
 * #50 {link: /drivers/schoenhofen.html}
 
-h2. Endurance Series
+h4. Fahrzeug
+
+In der DSTM wird der Einheitstourenwagen CylonRS des CTDP verwendet. Bei RaceCar ist er als RaceCar RC-09-CY eingegliedert.
+
+{link: /cars/rc-09-cy.html} in der Auto-Sektion
+
+h3. Endurance Series
 
 TEXT
 
-h3. Fahrer
+h4. Fahrer
 
 * #90 {link: /drivers/jruden.html}
 * #90 {link: /drivers/mruden.html}
+
+h4. Fahrzeug
+
+RaceCar startet mit einem Porsche 996 in der Endurance Series. 
