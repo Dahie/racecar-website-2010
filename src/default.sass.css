@@ -109,6 +109,11 @@ p
     :padding 0 32px 0 32px
   img
     :padding 12px
+    
+  table
+    :margin-left 30px
+  ul
+    :margin-left 30px
 
 =menu_tabs
   :display block
