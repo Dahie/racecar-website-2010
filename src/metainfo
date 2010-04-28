@@ -12,6 +12,6 @@ news/:
   in_menu: true
   sort_info: 2
 
-driver/:
+drivers/:
   in_menu: true
   sort_info: 4
