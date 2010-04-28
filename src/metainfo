@@ -11,3 +11,7 @@ gallery/:
 news/:
   in_menu: true
   sort_info: 2
+
+driver/:
+  in_menu: true
+  sort_info: 4
