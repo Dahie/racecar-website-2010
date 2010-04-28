@@ -1,0 +1,15 @@
+---
+title: RaceCar RC-13
+in_menu: true
+routed_title: Autos
+---
+h2. RaceCar RC-13
+
+Eine Perle, bitte etwas text hierher TODO
+
+<%= gallery_image('images/RC-11/28.jpg', 'rel1') %> <%= gallery_image('images/RC-11/29.jpg', 'rel1') %>
+<%= gallery_image('images/RC-11/30.jpg', 'rel1') %> <%= gallery_image('images/RC-11/31.jpg', 'rel1') %>
+<%= gallery_image('images/RC-11/32.jpg', 'rel1') %> <%= gallery_image('images/RC-11/33.jpg', 'rel1') %>
+
+* "Download des Wagens für GrandPrix 4":http://www.wuala.com/CarsTracksDevelopmentProjectPublic/GP4/Fantasy/RaceCar%20RC-13%201.0.zip
+* "Download der Templates":http://www.wuala.com/CarsTracksDevelopmentProjectPublic/GP4/Fantasy/ds_rc13-template_v1b.zip
