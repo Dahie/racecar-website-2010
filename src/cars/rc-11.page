@@ -5,10 +5,20 @@ routed_title: Autos
 ---
 h2. RaceCar RC-11
 
-Eine Perle, bitte etwas text hierher
+h3. Einsatz
+
+Mitte 2002 - Mitte 2003 in GP4IL, Hotlapcompetition, F1Simracing League
+
+h3. Informationen
+
+Der RaceCar der Superlative: Das erfolgsreichste, am längsten und häufigsten eingesetzte und das erste Auto für Grand Prix 4. Außerdem zog sich keine andere Entwicklung so lange hin; die Designfindung dauerte 5 Monate. Der Titelgewinn im HC Gold Cup entschädigte für die Mühen.
+
+h3. Galerie
 
 <%= gallery_image('images/RC-11/28.jpg', 'rel1') %> <%= gallery_image('images/RC-11/29.jpg', 'rel1') %>
 <%= gallery_image('images/RC-11/30.jpg', 'rel1') %> <%= gallery_image('images/RC-11/31.jpg', 'rel1') %>
 <%= gallery_image('images/RC-11/32.jpg', 'rel1') %> <%= gallery_image('images/RC-11/33.jpg', 'rel1') %>
+
+h3. Download
 
 "Download für GrandPrix 4":http://www.wuala.com/CarsTracksDevelopmentProjectPublic/GP4/Fantasy/RaceCar%20RC-11%201.3.zip
