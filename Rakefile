@@ -101,7 +101,7 @@ def ftp_files(prefixToRemove, sourceFileList, targetDir, hostname, username, pas
 end
 
 desc "Regenerate the website and upload to the server"
-task :deploy => [:cleanup, :webgen, :generate_thumbnails] do
+task :deploy => [:cleanup, :webgen, 'generate:thumbnails'] do
   #task :deploy => [:dist] do
   puts 'Please enter the FTP password'
   password = STDIN.gets.chomp
@@ -115,32 +115,35 @@ task :cleanup do
   FileUtils.rm 'webgen.cache' if File.exists? 'webgen.cache'
 end
 
-desc "Generate thumbnails for gallery pictures"
-task :generate_thumbnails do
-  files = FileList.new('out/cars/**/*.jpg') do |fl|
-    fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
-  end
-  create_thumbnails files
-end
+namespace :generate do
 
-def create_thumbnails(sourceFileList)
-
-  widthx = 200          # default width of generated image
-  heightx = 200         # default height of generated image
-  
-  sourceFileList.each do |srcFile|
-    puts "Generate thumbnail of #{srcFile}"
-    unless File.directory? srcFile
-      filepath = srcFile    # Path to file
-      
-      format = srcFile.split(".").last   # Format - extension
-      filename = srcFile.split(".").first # just file name without extension
-  
-      img = Magick::Image::read(srcFile).first
-     
-      thumb = img.resize_to_fit(widthx, heightx)
-      thumb.write filename + "_thumbnail." + format  
+  desc "Generate thumbnails for gallery pictures"
+  task :thumbnails do
+    files = FileList.new('out/cars/**/*.jpg') do |fl|
+      fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
     end
+    create_thumbnails files
   end
-end  
+  
+  def create_thumbnails(sourceFileList)
+  
+    widthx = 200          # default width of generated image
+    heightx = 200         # default height of generated image
+    
+    sourceFileList.each do |srcFile|
+      puts "Generate thumbnail of #{srcFile}"
+      unless File.directory? srcFile
+        filepath = srcFile    # Path to file
+        
+        format = srcFile.split(".").last   # Format - extension
+        filename = srcFile.split(".").first # just file name without extension
+    
+        img = Magick::Image::read(srcFile).first
+       
+        thumb = img.resize_to_fit(widthx, heightx)
+        thumb.write filename + "_thumbnail." + format  
+      end
+    end
+  end  
 
+end
