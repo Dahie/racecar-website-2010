@@ -1,6 +1,5 @@
 ---
 title: RaceCar RC-07
-in_menu: true
 routed_title: Autos
 ---
 h2. RaceCar RC-07
@@ -9,7 +8,5 @@ RaceCar startete mit dem RC-07 in die erste Saison der GP3DL. Aufgrund der kurze
 
 h3. Galerie
 
-
-
-h3. Download
-
+<%= gallery_image('images/RC-07/34.jpg', 'rel1') %> <%= gallery_image('images/RC-07/35.jpg', 'rel1') %>
+<%= gallery_image('images/RC-07/36.jpg', 'rel1') %>

@@ -1,6 +1,5 @@
 ---
 title: RaceCar RC-09
-in_menu: true
 routed_title: Autos
 ---
 h2. RaceCar RC-09
@@ -11,6 +10,4 @@ h3. Galerie
 
 <%= gallery_image('images/RC-09/37.jpg', 'rel1') %> <%= gallery_image('images/RC-09/38.jpg', 'rel1') %>
 <%= gallery_image('images/RC-09/39.jpg', 'rel1') %> <%= gallery_image('images/RC-09/40.jpg', 'rel1') %>
-
-h3. Download
 
