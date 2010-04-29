@@ -7,7 +7,6 @@ h2. Autos
 
 h3. Formel 1
 
-*(#rcx15) {link: /cars/rcx-15.html}
 *(#rc14) {link: /cars/rc-14.html}
 *(#rc13) {link: /cars/rc-13.html}
 *(#rc12) {link: /cars/rc-12.html}
@@ -17,6 +16,9 @@ h3. Formel 1
 *(#rc07) {link: /cars/rc-07.html}
 
 
-h3. DSTM/Cylon
+h3. Tourenwagen
 
 *(#rc09cy) {link: /cars/rc-09-cy.html}
+
+h3. Testfahrzeuge
+*(#rcx15) {link: /cars/rcx-15.html}
