@@ -3,6 +3,24 @@
 !racecar_blue = #000058
 !racecar_cyan = #00c0ff
 
+=round_corners_topright(!radius)
+  :border-radius-topright = !radius
+  :border-top-right-radius = !radius
+  :-moz-border-radius-topright = !radius
+  :-webkit-border-top-right-radius  = !radius
+  
+=round_corners_bottomright(!radius)
+  :border-radius-bottomright = !radius
+  :border-bottom-right-radius = !radius
+  :-moz-border-radius-bottomright = !radius
+  :-webkit-border-bottom-right-radius  = !radius
+  
+=round_corners_topleft(!radius)
+  :border-radius-topleft = !radius
+  :-moz-border-radius-topleft = !radius
+  :border-top-left-radius = !radius
+  :-webkit-border-top-left-radius  = !radius
+
 body
   :margin 0
   :padding 30px 0
@@ -32,10 +50,8 @@ p
   :line-height 1.5em
 
 #logo
-  :-moz-border-radius-topleft 20px
-  :-webkit-border-radius-top-left 20px
-  :-moz-border-radius-topright 20px
-  :-webkit-border-radius-top-right 20px
+  +round_corners_topright(20px)
+  +round_corners_topleft(20px)
   :margin 0
   :text-align left
   :vertical-align bottom
@@ -78,13 +94,14 @@ p
     :color = !racecar_cyan
   .news-date
     :margin-left 32px
+    :font-style italic
   h2 
     :display block
     :margin 30px 24px 20px 24px
     :padding 5px 0 5px 8px
     :color #222
-    :-moz-border-radius-topright 20px
-    :-moz-border-radius-bottomright 20px
+    +round_corners_topright(20px)
+    +round_corners_bottomright(20px)
     :border
       :top 1px solid
       :left 1px solid
@@ -96,8 +113,8 @@ p
     :margin 6px 30px
     :padding 1px 0 1px 5px
     :background #eee
-    :-moz-border-radius-topright 20px
-    :-moz-border-radius-bottomright 20px
+    +round_corners_bottomright(20px)
+    +round_corners_topright(20px)
     :border
       :right 3px solid
       :bottom 1px solid
@@ -124,18 +141,15 @@ p
     :weight bold
   :text-align left
   :background #eee
-  :-moz-border-radius-topright 20px
-  :-moz-border-radius-bottomright 20px
-  :-webkit-border-radius  20px
+  +round_corners_bottomright(20px)
+  +round_corners_topright(20px)
   :color = !racecar_blue
 
 #sidebar
   :width 215px
   :float left
-  :-moz-border-radius-topright  20px
-  :-webkit-border-top-right-radius  20px
-  :-moz-border-radius-bottomright  20px
-  :-webkit-border-bottom-right-radius  20px
+  +round_corners_bottomright(20px)
+  +round_corners_topright(20px)
   :margin-top 40px
   padding:
     :top 10px
