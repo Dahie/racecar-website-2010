@@ -13,9 +13,8 @@ Nach einem eher enttäuschenden Start in die Saison besserten sich die Ergebniss
 
 Ebenfalls 2001 erfolgte der Einstieg in die Hotlapcompetition des Onlinemagazins Racingmag.
 
-
+<%= gallery_image('cars/images/RC-09/37.jpg', 'rel1') %> 
 2001: Das erste Siegauto: RaceCar RC-09
-
 
 2001: Der Eindruck der Anschläge des 11. September hinterließen auch an den GP3DL-Autos Spuren. So auch am RaceCar RC-09
 
@@ -25,16 +24,16 @@ h3. Expansion
 
 Die zweite Saison der GP3DL begann hoffnungsvoll. Einen zweiten Sieg konnte man allerdings nicht feiern, lediglich einige Podestplatzierungen und so beendete das Team die Saison auf dem fünften Konstrukteursrang.
 
-
+<%= gallery_image('cars/images/RC-10/72.jpg', 'rel1') %>
 2002: Resultat endloser Diskussionen: RaceCar RC-10B
 
-2003 erfolgte der Umstieg auf Grand Prix 4 und RaceCar wechselte in die internationale GP4 Liga – GP4IL. Als eines der wenigen Gründungsmitgliedern der GP3DL/GP4IL startete das Team weiterhin in der ersten Liga der Serie und fuhr weiter gute Ergebnisse ein. Am Ende der Saison 2003 stand allerdings wieder nur ein 5. Konstrukteursrang.
+2002 erfolgte der Umstieg auf Grand Prix 4 und RaceCar wechselte in die internationale GP4 Liga – GP4IL. Als eines der wenigen Gründungsmitgliedern der GP3DL/GP4IL startete das Team weiterhin in der ersten Liga der Serie und fuhr weiter gute Ergebnisse ein. Am Ende der Saison 2003 stand allerdings wieder nur ein 5. Konstrukteursrang.
 
 Außerdem startete man mit einem zweiten Team, RC Mirage, in der zweiten Liga der GP4IL.
 
 Auch die Racingmag Hotlapcompetition stieg auf das damals neue Grand Prix 4 um und man trat ebenfalls mit dem neuen RC-11 an. Zum zweiten Mal fand auch der Gold Cup statt, in der ganze Rennen gefahren wurden und nicht nur die schnellsten Runden gewertet wurden. RaceCar konnte mit dem Gold Cup seine ersten Fahrer- und Konstrukteurstitel gewinnen. 
 
-
+<%= gallery_image('cars/images/RC-11/28.jpg', 'rel1') %>
 2003: Meisterstück und am längsten eingesetzter RaceCar: RC-11
 
 h3. Zusammenarbeit mit RTT
