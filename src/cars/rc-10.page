@@ -1,0 +1,23 @@
+---
+title: RaceCar RC-10
+routed_title: Autos
+---
+h2. RaceCar RC-10
+
+Das wohl meistdiskutierte Design der Teamgeschichte trägt der RaceCar RC-10. Der praktisch vollendete Prototyp wurde im letzten Moment gecancelt und durch ein völlig neues Design ersetzt. Die Diskussion darüber zog sich über mehrere Wochen hin.
+
+Zu Saisonmitte der zweiten GP3DL Saison wurde der RC-10 komplett überarbeitet und bekam zahlreiche neue Details und das Design wurde an den in den Startlöchern stehenden RC-11 angepasst.
+
+h3. Galerie
+
+h4. RC-10
+
+<%= gallery_image('images/RC-10/71.jpg', 'rel1') %>
+
+h4. RC-10B
+
+<%= gallery_image('images/RC-10/72.jpg', 'rel1') %>
+
+h3. Downloads
+
+* "Download des Wagens für GrandPrix 3":

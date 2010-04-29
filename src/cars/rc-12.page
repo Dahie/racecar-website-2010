@@ -1,0 +1,17 @@
+---
+title: RaceCar RC-12
+routed_title: Autos
+---
+h2. RaceCar RC-12
+
+Um dem neuen Sponsor SI Entertainment Rechnung zu tragen startete der RC-12 nicht in klassisch blauweißen Bemalung sondern in einer Sonderlackierung in den Sponsorfarben. Eingesetzt wurde diese Weiterentwicklung des erfolgreichen Vorgängers im Jahr 2003.
+
+h3. Galerie
+
+<%= gallery_image('images/RC-12/81.jpg', 'rel1') %> <%= gallery_image('images/RC-12/82.jpg', 'rel1') %>
+<%= gallery_image('images/RC-12/83.jpg', 'rel1') %> <%= gallery_image('images/RC-12/84.jpg', 'rel1') %>
+<%= gallery_image('images/RC-12/85.jpg', 'rel1') %> <%= gallery_image('images/RC-12/86.jpg', 'rel1') %>
+
+h3. Downloads
+
+* "Download des Wagens für Grand Prix 4":http://www.wuala.com/CarsTracksDevelopmentProjectPublic/GP4/Fantasy/RaceCar%20RC-11%201.3.zip

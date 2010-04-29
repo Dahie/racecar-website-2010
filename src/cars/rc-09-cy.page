@@ -1,10 +1,7 @@
 ---
 title: RaceCar RC-09-CY
-in_menu: true
 routed_title: Autos
 ---
 h2. RaceCar RC-09-CY
 
-<%= gallery_image('images/RC-11/28.jpg', 'rel1') %> <%= gallery_image('images/RC-11/29.jpg', 'rel1') %>
-<%= gallery_image('images/RC-11/30.jpg', 'rel1') %> <%= gallery_image('images/RC-11/31.jpg', 'rel1') %>
-<%= gallery_image('images/RC-11/32.jpg', 'rel1') %> <%= gallery_image('images/RC-11/33.jpg', 'rel1') %>
+In der Deutschen Simracing Tourenwagenmeisterschaft wird mit Einheitsautos vom Typ CylonRS gefahren, sodass sich der Arbeitsanteil des Teams am Fahrzeug auf das Design beschränkt. Trotzdem wurde der CylonRS als RC-09-CY eingegliedert. Im Gegensatz zu den bisherigen RaceCars bedeutet die Zahl nicht mehr die Fahrzeuggeneration, sondern verweist auf das erste Einsatzjahr. Die RC-09-CY sind in verschiedenen Lackierungen unterwegs, die unten in der Galerie zu sehen sind.
