@@ -2,6 +2,10 @@
 title: Home
 in_menu: true
 sort_info: 1
+link:
+  alternate:
+    href: /news/news.atom
+    type: application/atom+xml
 ---
 h2. Willkommen bei RaceCar
 
