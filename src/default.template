@@ -38,13 +38,13 @@
         <div id="menu">{menu: {max_levels: 1, used_nodes: files}}</div>
         <a class="hide" href="#top" accesskey="1">Top of page</a>
 
-        <h3>Partnerlinks</h3>
+        <h3>Partner</h3>
+          <!--<li>--><a href="http://www.ctdp.net"><img src="{relocatable: /images/ctdp_rc_logo.png}"></a><!--</li>-->
+          <!--<li>--><a href="http://www.si-technics.de"><img src="{relocatable: /images/si_rc_logo.png}"></a><!--</li>-->
         <ul class="linklist">
-          <li><a href="http://www.ctdp.net">Cars & Tracks Development Project</a></li>
-          <li><a href="http://www.si-entertainment.com">SI|Technics</a></li>
           <li><a href="http://www.danielprogramming.com">DanielProgramming</a></li>
-          <li><a href="http://www.dstm-racing.de">DSTM</a></li>
         </ul>
+          <!--<li>--><a href="http://www.dstm-racing.de"><img src="{relocatable: /images/dstm_rc_logo.png}"></a><!--</li>-->
 
       </div>
       <div class="clear">&nbsp;</div>

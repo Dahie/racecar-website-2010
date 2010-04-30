@@ -13,7 +13,7 @@ Nach einem eher enttäuschenden Start in die Saison besserten sich die Ergebniss
 
 Ebenfalls 2001 erfolgte der Einstieg in die Hotlapcompetition des Onlinemagazins Racingmag.
 
-<%= gallery_image('cars/images/RC-09/37.jpg', 'rel1') %> 
+<%= gallery_image('cars/images/RC-09/37.jpg', 'rel1') %><br />
 2001: Das erste Siegauto: RaceCar RC-09
 
 2001: Der Eindruck der Anschläge des 11. September hinterließen auch an den GP3DL-Autos Spuren. So auch am RaceCar RC-09
@@ -24,7 +24,7 @@ h3. Expansion
 
 Die zweite Saison der GP3DL begann hoffnungsvoll. Einen zweiten Sieg konnte man allerdings nicht feiern, lediglich einige Podestplatzierungen und so beendete das Team die Saison auf dem fünften Konstrukteursrang.
 
-<%= gallery_image('cars/images/RC-10/72.jpg', 'rel1') %>
+<%= gallery_image('cars/images/RC-10/72.jpg', 'rel1') %><br />
 2002: Resultat endloser Diskussionen: RaceCar RC-10B
 
 2002 erfolgte der Umstieg auf Grand Prix 4 und RaceCar wechselte in die internationale GP4 Liga – GP4IL. Als eines der wenigen Gründungsmitgliedern der GP3DL/GP4IL startete das Team weiterhin in der ersten Liga der Serie und fuhr weiter gute Ergebnisse ein. Am Ende der Saison 2003 stand allerdings wieder nur ein 5. Konstrukteursrang.
@@ -33,7 +33,7 @@ Außerdem startete man mit einem zweiten Team, RC Mirage, in der zweiten Liga de
 
 Auch die Racingmag Hotlapcompetition stieg auf das damals neue Grand Prix 4 um und man trat ebenfalls mit dem neuen RC-11 an. Zum zweiten Mal fand auch der Gold Cup statt, in der ganze Rennen gefahren wurden und nicht nur die schnellsten Runden gewertet wurden. RaceCar konnte mit dem Gold Cup seine ersten Fahrer- und Konstrukteurstitel gewinnen. 
 
-<%= gallery_image('cars/images/RC-11/28.jpg', 'rel1') %>
+<%= gallery_image('cars/images/RC-11/28.jpg', 'rel1') %><br />
 2003: Meisterstück und am längsten eingesetzter RaceCar: RC-11
 
 h3. Zusammenarbeit mit RTT
@@ -42,25 +42,25 @@ h3. Zusammenarbeit mit RTT
 
 Das Kernteam startete weiterhin in Liga 1 der GP4IL während gleich zwei RaceCar Teams (RC-Mirage, RC-Eagles) in Liga 2 starteten und den Vizemeistertitel der Konstrukteure erringen konnten.
 
-
+<%= gallery_image('cars/images/RC-13/74.jpg', 'rel1') %><br />
 2004: Völlig neu: RaceCar RC-13
 
 h3. Abschied vom Offline Racing
 
 2005 sollte das letzte Jahr der großen Grand Prix 4 Ligen sein. Mit dem völlig neuen RaceCar RC-14 startete man weiter zusammen mit dem RTT in den angestammten Meisterschaften. Außerdem wendete man sich anderen Rennserien zu, unter anderem der Simraceway NASCAR Liga. Am Ende verabschiedete man sich mit Stammplatz 5 der Konstrukteure für das Hauptteam in Liga 1 und Position 4 in Liga 2 für RC-Mirage von der GP4IL.
 
-
+<%= gallery_image('cars/images/RC-14/Render/112.jpg', 'rel1') %><br />
 2005: Farewell, GP4: RaceCar RC-14
 
-
+<%= gallery_image('cars/images/RC-01-NC/130.jpg', 'rel1') %><br />
 2005: Chevrolet Monte Carlo als RaceCar RC-01-NC
 
 Nach dem Ende der Grand Prix 4 Ligen wurde es ruhiger um RaceCar. Andere Projekte nahmen Zeit in Anspruch und so wartete das Team auf eine neuerliche Möglichkeit an einer Rennserie teilzunehmen. In der Zwischenzeit begann man mit Arbeiten an den ersten RaceCars für das damals neue rFactor.
 
-
+<%= gallery_image('cars/images/RC-01-rt/139.jpg', 'rel1') %><br />
 2006: Die rFactor-Ära beginnt: RaceCar RC-01-rT
 
-
+<%= gallery_image('cars/images/RCX-15/147.jpg', 'rel1') %><br />
 2008: Nie eingesetzt: RaceCar RCX-15
 
 h3. Neuanfang in der DSTM
