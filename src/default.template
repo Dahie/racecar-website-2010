@@ -42,7 +42,7 @@
           <!--<li>--><a href="http://www.ctdp.net"><img src="{relocatable: /images/ctdp_rc_logo.png}"></a><!--</li>-->
           <!--<li>--><a href="http://www.si-technics.de"><img src="{relocatable: /images/si_rc_logo.png}"></a><!--</li>-->
         <ul class="linklist">
-          <li><a href="http://www.danielprogramming.com">DanielProgramming</a></li>
+          <li><a href="http://www.danielprogramming.com"><b>DanielProgramming.com</b></a></li>
         </ul>
           <!--<li>--><a href="http://www.dstm-racing.de"><img src="{relocatable: /images/dstm_rc_logo.png}"></a><!--</li>-->
 
