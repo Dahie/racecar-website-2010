@@ -16,3 +16,4 @@ h4. Render
 
 <%= gallery_image('images/RC-09-CY/24brianza.jpg', 'rel1') %> <%= gallery_image('images/RC-09-CY/31brianza.jpg', 'rel1') %>
 <%= gallery_image('images/RC-09-CY/43.jpg', 'rel1') %> <%= gallery_image('images/RC-09-CY/50brianza.jpg', 'rel1') %>
+<%= gallery_image('images/RC-09-CY/si10_2g.jpg', 'rel1') %> <%= gallery_image('images/RC-09-CY/si10_3g.jpg', 'rel1') %>
