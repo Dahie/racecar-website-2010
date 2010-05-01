@@ -23,3 +23,7 @@ h3. Steckbrief
 h3. Simracing Lebenslauf
 
 h3. Bisherige Erfolge
+
+h3. Autos
+
+<%= gallery_image('images/31brianza.jpg', 'rel1') %>

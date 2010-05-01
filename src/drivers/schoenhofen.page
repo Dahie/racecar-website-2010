@@ -28,3 +28,7 @@ h3. Simracing Lebenslauf
 * 2001-2002: Hotlapcompetition
 * 2001-2003: Rennkommissar GP3DL
 * Seit 2009: Fahrer DSTM
+
+h3. Autos
+
+<%= gallery_image('images/50brianza.jpg', 'rel1') %>
