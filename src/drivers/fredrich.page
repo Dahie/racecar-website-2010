@@ -35,3 +35,7 @@ h3. Bisherige Erfolge
 * 2006: 1. Platz Fahrermeisterschaft Liga Racing Center
 * 2006: 1. Platz Konstrukteursmeisterschaft Liga Racing Center
 * 2006: 3. Platz PCC-Cup Liga Racing Center
+
+h3. Autos
+
+<%= gallery_image('../cars/images/RC-09-CY/24brianza.jpg', 'rel1') %>
