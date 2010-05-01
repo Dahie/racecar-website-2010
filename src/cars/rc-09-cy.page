@@ -11,6 +11,8 @@ h3. Galerie
 h4. rFactor
 
 <%= gallery_image('images/RC-09-CY/tobanstart.jpg', 'rel1') %> <%= gallery_image('images/RC-09-CY/overtake.jpg', 'rel1') %>
+<%= gallery_image('images/RC-09-CY/grab_214.jpg', 'rel1') %> <%= gallery_image('images/RC-09-CY/grab_222.jpg', 'rel1') %>
+<%= gallery_image('images/RC-09-CY/grab_242.jpg', 'rel1') %> <%= gallery_image('images/RC-09-CY/grab_189.jpg', 'rel1') %>
 
 h4. Render
 
