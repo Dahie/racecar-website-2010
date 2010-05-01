@@ -20,6 +20,6 @@ def gallery_image target_file, rel = nil
   html
 end
 
-def thumbnail_image file
-  "<img src=\"#{file}\" \>"
+def thumbnail_image file, alt=""
+  "<img src=\"#{file}\" alt=\"#{alt}\" \>"
 end
