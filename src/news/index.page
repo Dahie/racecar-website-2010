@@ -5,11 +5,11 @@ link:
     href: news.atom
     type: application/atom+xml
 ---
-h2. Aktuellste Neuigkeiten
+h2. Aktuellste News
 
-<webgen:block name='content' chain='news.template; release_10_04_06_rattlesnake.html' />
+<webgen:block name='content' chain='news_entry.template; release_10_05_02_premonza.html' />
 
-h2. Alle Neuigkeiten
+h2. Alle News
 
 Following is a list of all news entries:
 

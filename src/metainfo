@@ -11,3 +11,6 @@ news/:
 drivers/:
   in_menu: true
   sort_info: 4
+
+/news/release*.html:
+  template: news.template
