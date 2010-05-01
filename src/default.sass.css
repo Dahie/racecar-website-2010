@@ -130,6 +130,15 @@ p
     :margin-left 30px
   ul
     :margin-left 30px
+  ul.linklist
+    :list-style-image none
+    :margin 0
+    :padding 0
+    :text-align center
+    li
+      :display inline
+      img
+        :margin 0
 
 =menu_tabs
   :display block
@@ -154,8 +163,8 @@ p
   padding:
     :top 10px
     :bottom 40px
-  :background-color  white
   :font-size 1em
+  :background white
   :line-height 1.3em
   img
     :margin-left 32px

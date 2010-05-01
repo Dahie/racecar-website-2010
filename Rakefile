@@ -125,6 +125,9 @@ namespace :generate do
     files.add FileList.new('out/drivers/**/*.jpg') do |fl|
       fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
     end
+    files.add FileList.new('out/news/**/*.jpg') do |fl|
+      fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
+    end
     puts files
     create_thumbnails files
   end

@@ -30,6 +30,12 @@
         <div class="clear"></div>
 
         <webgen:block name="content" />
+        
+        <ul class="linklist">
+          <li><a href="http://www.ctdp.net"><img src="{relocatable: /images/ctdp_rc_logo.png}" /></a></li>
+          <li><a href="http://www.si-technics.de" ><img src="{relocatable: /images/si_rc_logo.png}" style="margin-bottom: 18px;" /></a></li>
+          <li><a href="http://www.dstm-racing.de"><img src="{relocatable: /images/dstm_rc_logo.png}" /></a></li>
+        </ul>
       </div>
 
       <div id="sidebar">
@@ -38,13 +44,16 @@
         <div id="menu">{menu: {max_levels: 1, used_nodes: files}}</div>
         <a class="hide" href="#top" accesskey="1">Top of page</a>
 
-        <h3>Partner</h3>
-          <!--<li>--><a href="http://www.ctdp.net"><img src="{relocatable: /images/ctdp_rc_logo.png}"></a><!--</li>-->
-          <!--<li>--><a href="http://www.si-technics.de"><img src="{relocatable: /images/si_rc_logo.png}"></a><!--</li>-->
-        <ul class="linklist">
+
+        <h3 style="display:none;">Partner</h3>
+          
+          
+        <ul class="linklist" style="display:none;">
+          <li><a href="http://www.ctdp.net"><img src="{relocatable: /images/ctdp_rc_logo.png}"></a></li>
+          <li><a href="http://www.si-technics.de"><img src="{relocatable: /images/si_rc_logo.png}"></a></li>
+          <li><a href="http://www.dstm-racing.de"><img src="{relocatable: /images/dstm_rc_logo.png}"></a></li>
           <li><a href="http://www.danielprogramming.com"><b>DanielProgramming.com</b></a></li>
         </ul>
-          <!--<li>--><a href="http://www.dstm-racing.de"><img src="{relocatable: /images/dstm_rc_logo.png}"></a><!--</li>-->
 
       </div>
       <div class="clear">&nbsp;</div>
