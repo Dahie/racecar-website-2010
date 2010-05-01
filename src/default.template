@@ -22,7 +22,7 @@
     <div id="container">
       <div id="main">
 
-        <div id="logo" style="background: url({relocatable: /images/rc-banner-<%= rand(3) %>.jpg}) no-repeat center center;">
+        <div id="logo" style="background: url({relocatable: /images/rc-header-<%= rand(3) %>.jpg}) no-repeat center center;">
           <h1><a href="{relocatable: /index.html}" accesskey="4">RaceCar</a></h1>
           <span id="tagline">Your striking site slogan!</span>
         </div>
