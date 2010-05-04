@@ -105,7 +105,7 @@ task :deploy => [:cleanup, :webgen, 'generate:thumbnails'] do
   #task :deploy => [:dist] do
   puts 'Please enter the FTP password'
   password = STDIN.gets.chomp
-  ftp_files("out", FileList["out/**/*"], "/site2010", 'ftp.racecarf1.com', 'racecarf1.com', password)
+  ftp_files("out", FileList["out/**/*"], "", 'ftp.racecarf1.com', 'racecarf1.com', password)
 end
 
 desc "Deletes existing generated data and delets the cache."
