@@ -1,0 +1,11 @@
+---
+title: RaceCar RCX-11
+routed_title: Autos
+---
+h2. RaceCar RCX-11
+
+Ende 2002 kam eine gravierende Änderung auf die Teams zu. Die neue Simulation Grand Prix 4 kam auf den Markt und so mussten die Designer völlig neue Autos entwickeln. Diese neuen Vorzeichen erforderten langwierige Tests wofür RaceCar den RCX-11 als Testfahrzeug für den neuen RC-11 erarbeitete.
+
+h3. Galerie
+
+<%= gallery_image('images/RCX-11/69.jpg', 'rel1') %> <%= gallery_image('images/RCX-11/70.jpg', 'rel1') %>

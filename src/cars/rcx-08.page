@@ -1,0 +1,12 @@
+---
+title: RaceCar RCX-08
+routed_title: Autos
+---
+h2. RaceCar RCX-08
+
+Nachdem sich der RaceCar RC-07 nach den ersten Rennen der GP3DL nicht als der große Wurf erwies entwickelte man kurzfristig einen Nachfolger, der ab dem Rennen in San Marino an den Start gehen sollte. Die Zusammenarbeit mit Daniel Senff führte allerdings zum Entwurf des völlig neuen RC-09, so dass der RC-08 nie zum Einsatz kam.
+
+h3. Galerie
+
+<%= gallery_image('images/RCX-08/61.jpg', 'rel1') %> <%= gallery_image('images/RCX-08/62.jpg', 'rel1') %>
+<%= gallery_image('images/RCX-08/63.jpg', 'rel1') %>

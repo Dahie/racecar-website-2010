@@ -1,0 +1,12 @@
+---
+title: RaceCar RCX-10
+routed_title: Autos
+---
+h2. RaceCar RCX-10
+
+Zur zweiten GP3DL Saison wurde an einem Nachfolger für den erfolgreichen RC-09 gearbeitet. Designer Daniel Senff erarbeitete einen gelungenen Entwurf für den RC-10. Doch die Entscheidung zu einer Neuausrichtung des Designs führte zu einem völlig neuen Entwurf, der dann auch schließlich realisiert wurde. Der erste Entwurf bekam die Bezeichnung RCX-10, kam aber nie zum Einsatz.
+
+h3. Galerie
+
+<%= gallery_image('images/RCX-10/64.jpg', 'rel1') %> <%= gallery_image('images/RCX-10/65.jpg', 'rel1') %>
+<%= gallery_image('images/RCX-10/66.jpg', 'rel1') %>
