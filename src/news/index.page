@@ -7,7 +7,7 @@ link:
 ---
 h2. Aktuellste News
 
-<webgen:block name='content' chain='news_entry.template; release_10_05_02_premonza.html' />
+<webgen:block name='content' chain='news_entry.template; release_10_05_07_monza.html' />
 
 h2. Alle News
 
