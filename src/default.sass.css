@@ -38,7 +38,6 @@ body
   :color #222
 
 a
-  :text-decoration none
   :background-color inherit
   :color = !racecar_blue
   &:hover 
@@ -153,6 +152,7 @@ p
   +round_corners_bottomright(20px)
   +round_corners_topright(20px)
   :color = !racecar_blue
+  :text-decoration none
 
 #sidebar
   :width 215px
