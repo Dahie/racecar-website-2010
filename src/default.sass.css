@@ -20,13 +20,22 @@ $racecar_cyan: #00c0ff
   -moz-border-radius-topleft: $radius
   border-top-left-radius: $radius
   -webkit-border-top-left-radius: $radius
+  
+=transitions
+  -webkit-transition: all 200ms ease-out
+  -moz-transition: all 200ms ease-out
+  -o-transition: all 200ms ease-out
 
 body
   margin: 0
-  padding: 30px 0
   font: 76% tahoma, verdana, sans-serif
-  background-color: $racecar_blue
+  background: $racecar_blue url(images/bg.jpg) repeat-x bottom
   color: #222222
+
+#wrap
+  background: url(images/bg_bottom.png) no-repeat bottom center fixed
+  overflow: auto
+  padding: 30px 0
 
 #thetop
   margin: 0
@@ -36,6 +45,7 @@ body
   margin: 0 auto
   padding: 0
   color: #222222
+  
 
 a
   background-color: inherit
@@ -125,6 +135,18 @@ p
     padding: 0 32px 0 32px
   img
     padding: 12px
+  a
+    img
+      border: 2px solid #ddd
+      padding: 3px
+      border-radius: 3px
+      -moz-border-radius: 3px
+      -webkit-border-radius: 3px
+      +transitions
+    &:hover
+      img
+        border-color: $racecar_cyan
+      
   table
     margin-left: 30px
   ul
@@ -136,8 +158,27 @@ p
     text-align: center
     li
       display: inline
-      img
-        margin: 0
+      a
+        img
+          margin: 0
+          border: none
+  .messy_list
+    ul
+      list-style: none
+      li
+        padding: 8px 15px
+        margin: 10px 0
+        a
+          text-decoration: none
+          font-weight: bold
+        &:nth-child(odd) 
+          background: rgba(50,50,50,0.1) 
+        &:nth-child(odd):hover 
+          background: rgba(50,50,50,0.3)
+        &:nth-child(even) 
+          background: rgba(50,50,50,0.3)
+        &:nth-child(even):hover 
+          background: rgba(50,50,50,0.5)
 
 =menu_tabs
   display: block
@@ -189,9 +230,7 @@ p
       li
         a
           +menu_tabs
-          -webkit-transition: all 200ms ease-out
-          -moz-transition: all 200ms ease-out
-          -o-transition: all 200ms ease-out
+          +transitions
           transition: all 200ms ease-out
           &:hover
             background: white url(images/gradient2.png) repeat-x
