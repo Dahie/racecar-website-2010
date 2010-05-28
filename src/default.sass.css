@@ -1,259 +1,258 @@
 /* andreas03 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use for any purpose as long as the proper credits are given to the original author.
 
-!racecar_blue = #000058
-!racecar_cyan = #00c0ff
+$racecar_blue: #000058
+$racecar_cyan: #00c0ff
 
-=round_corners_topright(!radius)
-  :border-radius-topright = !radius
-  :border-top-right-radius = !radius
-  :-moz-border-radius-topright = !radius
-  :-webkit-border-top-right-radius  = !radius
-  
-=round_corners_bottomright(!radius)
-  :border-radius-bottomright = !radius
-  :border-bottom-right-radius = !radius
-  :-moz-border-radius-bottomright = !radius
-  :-webkit-border-bottom-right-radius  = !radius
-  
-=round_corners_topleft(!radius)
-  :border-radius-topleft = !radius
-  :-moz-border-radius-topleft = !radius
-  :border-top-left-radius = !radius
-  :-webkit-border-top-left-radius  = !radius
+=round_corners_topright($radius)
+  border-radius-topright: $radius
+  border-top-right-radius: $radius
+  -moz-border-radius-topright: $radius
+  -webkit-border-top-right-radius: $radius
+
+=round_corners_bottomright($radius)
+  border-radius-bottomright: $radius
+  border-bottom-right-radius: $radius
+  -moz-border-radius-bottomright: $radius
+  -webkit-border-bottom-right-radius: $radius
+
+=round_corners_topleft($radius)
+  border-radius-topleft: $radius
+  -moz-border-radius-topleft: $radius
+  border-top-left-radius: $radius
+  -webkit-border-top-left-radius: $radius
 
 body
-  :margin 0
-  :padding 30px 0
-  :font 76% tahoma,verdana,sans-serif
-  :background-color = !racecar_blue
-  :color #222
+  margin: 0
+  padding: 30px 0
+  font: 76% tahoma, verdana, sans-serif
+  background-color: $racecar_blue
+  color: #222222
 
 #thetop
-  :margin 0
+  margin: 0
 
 #container
-  :width 820px
-  :margin 0 auto
-  :padding 0
-  :color #222
+  width: 820px
+  margin: 0 auto
+  padding: 0
+  color: #222222
 
 a
-  :background-color inherit
-  :color = !racecar_blue
-  &:hover 
-    :text-decoration underline
+  background-color: inherit
+  color: $racecar_blue
+  &:hover
+    text-decoration: underline
   img
-    :border 0
+    border: 0
+
 p
-  :margin 0 0 15px 0
-  :line-height 1.5em
+  margin: 0 0 15px 0
+  line-height: 1.5em
 
 #logo
   +round_corners_topright(20px)
   +round_corners_topleft(20px)
-  :margin 0
-  :text-align left
-  :vertical-align bottom
-  :color #555
-  :overflow auto
-  :background url(images/rc-banner-1.jpg) no-repeat center center
-  :height 150px
+  margin: 0
+  text-align: left
+  vertical-align: bottom
+  color: #555555
+  overflow: auto
+  background: url(images/rc-banner-1.jpg) no-repeat center center
+  height: 150px
   h1
-    :margin 90px 5px 1px 5px
-    :letter-spacing -3px
-    :font-style italic
-    :display none
+    margin: 90px 5px 1px 5px
+    letter-spacing: -3px
+    font-style: italic
+    display: none
   a
-    :background-color inherit
-    :color white
-    :text-decoration none
+    background-color: inherit
+    color: white
+    text-decoration: none
     &:hover
-      :background-color inherit
-      :color #69e
+      background-color: inherit
+      color: #6699ee
   #tagline
-    :text-align center
-    :font-size 1.2em
-    :color = !racecar_cyan
-    :display none
+    text-align: center
+    font-size: 1.2em
+    color: $racecar_cyan
+    display: none
 
 #main
-  :float left
-  :width 560px
-  :min-height 48em
-  :background-color white
-  :-moz-border-radius 20px
-  :-webkit-border-radius 20px
-  :border-radius 20px
-  :overflow auto
-  :border
-    :top 1px solid #ddd
-    :left 1px solid #ddd
-    :right 4px solid
-    :bottom 2px solid
-    :color = !racecar_cyan
+  float: left
+  width: 560px
+  min-height: 48em
+  background-color: white
+  -moz-border-radius: 20px
+  -webkit-border-radius: 20px
+  border-radius: 20px
+  overflow: auto
+  border:
+    top: 1px solid #dddddd
+    left: 1px solid #dddddd
+    right: 4px solid
+    bottom: 2px solid
+    color: $racecar_cyan
   .news-date
-    :margin-left 32px
-    :font-style italic
-  h2 
-    :display block
-    :margin 30px 24px 20px 24px
-    :padding 5px 0 5px 8px
-    :color #222
+    margin-left: 32px
+    font-style: italic
+  h2
+    display: block
+    margin: 30px 24px 20px 24px
+    padding: 5px 0 5px 8px
+    color: #222222
     +round_corners_topright(20px)
     +round_corners_bottomright(20px)
-    :border
-      :top 1px solid
-      :left 1px solid
-      :right 4px solid
-      :bottom 2px solid
-      :color = !racecar_cyan
-    :text-decoration none
+    border:
+      top: 1px solid
+      left: 1px solid
+      right: 4px solid
+      bottom: 2px solid
+      color: $racecar_cyan
+    text-decoration: none
   h3
-    :margin 6px 30px
-    :padding 1px 0 1px 5px
-    :background #eee
+    margin: 6px 30px
+    padding: 1px 0 1px 5px
+    background: #eeeeee
     +round_corners_bottomright(20px)
     +round_corners_topright(20px)
-    :border
-      :right 3px solid
-      :bottom 1px solid
-      :color = !racecar_blue
+    border:
+      right: 3px solid
+      bottom: 1px solid
+      color: $racecar_blue
   h4
-    :padding-left 32px
+    padding-left: 32px
   p
-    :padding 0 32px 0 32px
+    padding: 0 32px 0 32px
   img
-    :padding 12px
-    
+    padding: 12px
   table
-    :margin-left 30px
+    margin-left: 30px
   ul
-    :margin-left 30px
+    margin-left: 30px
   ul.linklist
-    :list-style-image none
-    :margin 0
-    :padding 0
-    :text-align center
+    list-style-image: none
+    margin: 0
+    padding: 0
+    text-align: center
     li
-      :display inline
+      display: inline
       img
-        :margin 0
+        margin: 0
 
 =menu_tabs
-  :display block
-  :width 210px
-  :margin 3px 10px 2px 0
-  :padding 5px 0 5px 32px
+  display: block
+  width: 210px
+  margin: 3px 10px 2px 0
+  padding: 5px 0 5px 32px
   font:
-    :size 1.1em
-    :weight bold
-  :text-align left
-  :background #eee
+    size: 1.1em
+    weight: bold
+  text-align: left
+  background: #eeeeee
   +round_corners_bottomright(20px)
   +round_corners_topright(20px)
-  :color = !racecar_blue
-  :text-decoration none
+  color: $racecar_blue
+  text-decoration: none
 
 #sidebar
-  :width 215px
-  :float left
+  width: 215px
+  float: left
   +round_corners_bottomright(20px)
   +round_corners_topright(20px)
-  :margin-top 40px
+  margin-top: 40px
   padding:
-    :top 10px
-    :bottom 40px
-  :font-size 1em
-  :background white
-  :line-height 1.3em
+    top: 10px
+    bottom: 40px
+  font-size: 1em
+  background: white
+  line-height: 1.3em
   img
-    :margin-left 32px
+    margin-left: 32px
   p
-    :padding 0 0 0 12px
-    :font-size 0.9em
+    padding: 0 0 0 12px
+    font-size: 0.9em
   ul.linklist
-    :font-size 0.9em
-    :list-style-type  none
-    :margin  0px
-    :padding  6px 0px 6px 32px
+    font-size: 0.9em
+    list-style-type: none
+    margin: 0px
+    padding: 6px 0px 6px 32px
   h3, h2
-    :padding-left 32px
+    padding-left: 32px
   h2
-    :display none
-    
+    display: none
   #menu
-    ul 
-      :list-style-type  none
-      :margin  0px
-      :margin-top 12px
-      :padding  0px
+    ul
+      list-style-type: none
+      margin: 0px
+      margin-top: 12px
+      padding: 0px
       li
         a
           +menu_tabs
+          -webkit-transition: all 200ms ease-out
+          -moz-transition: all 200ms ease-out
+          -o-transition: all 200ms ease-out
+          transition: all 200ms ease-out
           &:hover
-            :background #fff url(images/gradient2.png) repeat-x
-            :color = !racecar_cyan
-            :text-decoration none
-        
+            background: white url(images/gradient2.png) repeat-x
+            color: $racecar_cyan
+            text-decoration: none
         &.webgen-menu-item-selected, &.webgen-menu-submenu-inhierarchy
           span, a
             +menu_tabs
-            :background white
-            /:-moz-box-shadow 10px 10px 5px #888
-            :border
-              :right 4px solid
-              :bottom 2px solid
-              :color = !racecar_cyan
-
-
+            background: white
+            border:
+              right: 4px solid
+              bottom: 2px solid
+              color: $racecar_cyan
 
 #footer
-  :margin 0 auto 20px auto
-  :width 860px
-  :padding 0 0 5px 0
-  :font-size 0.9em
-  :color #888
-  :text-align center
+  margin: 0 auto 20px auto
+  width: 860px
+  padding: 0 0 5px 0
+  font-size: 0.9em
+  color: #888888
+  text-align: center
 
 h1,h2,h3,h4
-  :margin 0 0 10px 0
-  :font-weight normal
+  margin: 0 0 10px 0
+  font-weight: normal
 
 h1
-  :font-size 2.8em
+  font-size: 2.8em
 
 h2
-  :margin 0 0 4px 0
-  :font-size 1.8em
+  margin: 0 0 4px 0
+  font-size: 1.8em
 
 h3
-  :margin 20px 0 8px 0
-  :font-size 1.4em
+  margin: 20px 0 8px 0
+  font-size: 1.4em
 
 h4
-  :margin 10px 0 5px 0
-  :font-size 1.2em
+  margin: 10px 0 5px 0
+  font-size: 1.2em
 
 .clear
-  :clear both
-  :margin 0
+  clear: both
+  margin: 0
 
 .right
-  :text-align right
+  text-align: right
 
 .internallink
-  :font-size 0.9em
-  :text-align center
+  font-size: 0.9em
+  text-align: center
 
 .block
-  :padding 20px
-  :background #eee
-  :color #222
-  :border 2px solid #ddd
+  padding: 20px
+  background: #eeeeee
+  color: #222222
+  border: 2px solid #dddddd
 
 .credit
-  :color #888
-  :background-color inherit
+  color: #888888
+  background-color: inherit
 
 .hide
-  :display none
+  display: none
