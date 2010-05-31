@@ -29,11 +29,11 @@ $racecar_cyan: #00c0ff
 body
   margin: 0
   font: 76% tahoma, verdana, sans-serif
-  background: $racecar_blue url(images/bg.jpg) repeat-x bottom
+  background: $racecar_blue url(images/bg.jpg) no-repeat bottom right
   color: #222222
 
 #wrap
-  background: url(images/bg_bottom.png) no-repeat bottom center fixed
+  background: url(images/bg_bottom.png) no-repeat bottom right fixed
   overflow: auto
   padding: 30px 0
 
@@ -156,7 +156,7 @@ p
   ul.linklist
     list-style-image: none
     margin: 0
-    padding: 0
+    /*padding: 0
     text-align: center
     li
       display: inline
@@ -184,6 +184,7 @@ p
   .styled_list
     ul
       list-style: none
+      margin-left: 0px !important
       li
         margin: 12px
         float: left
@@ -195,29 +196,32 @@ p
           background: url(cars/images/RC-12/85_thumbnail.jpg) no-repeat center center
         &#rc11
           background: url(cars/images/RC-11/33_thumbnail.jpg) no-repeat center center
-        &#rc14
-          background: url(cars/images/RC-14/GP4/103_thumbnail.jpg) no-repeat center center
-        &#rc14
-          background: url(cars/images/RC-14/GP4/103_thumbnail.jpg) no-repeat center center
-        &#rc14
-          background: url(cars/images/RC-14/GP4/103_thumbnail.jpg) no-repeat center center
+        &#rc10
+          background: url(cars/images/RC-10/72_thumbnail.jpg) no-repeat center center
+        &#rc09
+          background: url(cars/images/RC-09/37_thumbnail.jpg) no-repeat center center
+        &#rc07
+          background: url(cars/images/RC-07/36_thumbnail.jpg) no-repeat center center
+        &#rc09cy
+          background: url(cars/images/RC-09-CY/grab_214_thumbnail.jpg) no-repeat center center
         a
           width: 200px
-          height: 142px
+          height: 70px
           display: block
+          background-color: rgba(255, 255, 255, 0.55)
           border: 2px solid #ddd
-          padding: 3px
           border-radius: 3px
           -moz-border-radius: 3px
           -webkit-border-radius: 3px
-          color: white
+          color: $racecar_blue
           font-weight: bold
           font-size: 1.3em
           text-decoration: none
           +transitions
           &:hover
-            color: $racecar_blue
+            color: white
             border-color: $racecar_cyan
+            background-color: rgba(255, 255, 255, 0.0)
       
 =menu_tabs
   display: block

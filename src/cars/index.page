@@ -7,7 +7,7 @@ h2. Autos
 
 h3. Formel 1
 
-<div class="messy_list">
+<div class="styled_list">
 *(#rc14) {link: /cars/rc-14.html}
 *(#rc13) {link: /cars/rc-13.html}
 *(#rc12) {link: /cars/rc-12.html}
@@ -19,13 +19,17 @@ h3. Formel 1
 
 h3. Sport- und Tourenwagen
 
+<div class="styled_list">
 *(#rc09cy) {link: /cars/rc-09-cy.html}
 * {link: /cars/rc-01-gt.html}
 * {link: /cars/rc-01-nc.html}
+</div>
 
 h3. Testfahrzeuge
 
+<div class="styled_list">
 *(#rcx15) {link: /cars/rcx-15.html}
 * {link: /cars/rcx-11.html}
 * {link: /cars/rcx-10.html}
 * {link: /cars/rcx-08.html}
+</div>
