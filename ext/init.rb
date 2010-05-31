@@ -9,13 +9,18 @@
 # website.
 config = Webgen::WebsiteAccess.website.config
 
-def gallery_image target_file, rel = nil
+def gallery_image target_file, options=nil
   format = target_file.split(".").last   # Format - extension
   filename = target_file.split(".").first # just file name without extension
   thumbnail_file = filename + "_thumbnail." + format
   
   html = "<a href=\"#{target_file}\""
-  html += " rel=\"\"" if rel
+  if options
+    html += " rel=\"#{options[:rel]}\"" if options[:rel]
+    html += " style=\"#{options[:style]}\"" if options[:style]
+    html += " class=\"#{options[:class]}\"" if options[:class]
+    html += " id=\"#{options[:id]}\"" if options[:id]
+  end
   html += ">#{thumbnail_image(thumbnail_file)}</a>"
   html
 end
