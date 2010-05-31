@@ -188,6 +188,12 @@ p
       li
         margin: 12px
         float: left
+        border: 2px solid #ddd
+        border-radius: 3px
+        -moz-border-radius: 3px
+        -webkit-border-radius: 3px
+        &:hover
+          border-color: $racecar_cyan
         &#rc14
           background: url(cars/images/RC-14/GP4/103_thumbnail.jpg) no-repeat center center
         &#rc13
@@ -199,17 +205,29 @@ p
         &#rc10
           background: url(cars/images/RC-10/72_thumbnail.jpg) no-repeat center center
         &#rc09
-          background: url(cars/images/RC-09/37_thumbnail.jpg) no-repeat center center
+          background: url(cars/images/RC-09/37_thumbnail.jpg) no-repeat center 80%
         &#rc07
-          background: url(cars/images/RC-07/36_thumbnail.jpg) no-repeat center center
+          background: url(cars/images/RC-07/36_thumbnail.jpg) no-repeat center 70%
         &#rc09cy
-          background: url(cars/images/RC-09-CY/grab_214_thumbnail.jpg) no-repeat center center
+          background: url(cars/images/RC-09-CY/grab_214_thumbnail.jpg) no-repeat center 40%
+        &#rc01gt
+          background: url(cars/images/RC-01-GT/122_thumbnail.jpg) no-repeat center 70%
+        &#rc01nc
+          background: url(cars/images/RC-01-NC/132_thumbnail.jpg) no-repeat center center
+        &#rcx11
+          background: url(cars/images/RCX-11/69_thumbnail.jpg) no-repeat center center
+        &#rcx15
+          background: url(cars/images/RCX-15/147_thumbnail.jpg) no-repeat center center
+        &#rcx08
+          background: url(cars/images/RCX-08/63_thumbnail.jpg) no-repeat center center
+        &#rcx10
+          background: url(cars/images/RCX-10/65_thumbnail.jpg) no-repeat center center
         a
           width: 200px
           height: 70px
           display: block
           background-color: rgba(255, 255, 255, 0.55)
-          border: 2px solid #ddd
+          border: 3px solid white
           border-radius: 3px
           -moz-border-radius: 3px
           -webkit-border-radius: 3px
@@ -220,7 +238,6 @@ p
           +transitions
           &:hover
             color: white
-            border-color: $racecar_cyan
             background-color: rgba(255, 255, 255, 0.0)
       
 =menu_tabs

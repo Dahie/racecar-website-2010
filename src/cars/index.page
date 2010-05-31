@@ -21,15 +21,15 @@ h3. Sport- und Tourenwagen
 
 <div class="styled_list">
 *(#rc09cy) {link: /cars/rc-09-cy.html}
-* {link: /cars/rc-01-gt.html}
-* {link: /cars/rc-01-nc.html}
+*(#rc01gt) {link: /cars/rc-01-gt.html}
+*(#rc01nc) {link: /cars/rc-01-nc.html}
 </div>
 
 h3. Testfahrzeuge
 
 <div class="styled_list">
 *(#rcx15) {link: /cars/rcx-15.html}
-* {link: /cars/rcx-11.html}
-* {link: /cars/rcx-10.html}
-* {link: /cars/rcx-08.html}
+*(#rcx11) {link: /cars/rcx-11.html}
+*(#rcx10) {link: /cars/rcx-10.html}
+*(#rcx08) {link: /cars/rcx-08.html}
 </div>
