@@ -1,9 +1,9 @@
 ---
-title: "DSTM: Teamvorstellung Canada City"
+title: "DSTM: Teamvorstellung Canada City (Update)"
 in_menu: true
 sort_info: 2010-05-20 22:00:10
 created_at: 2010-05-20 22:00:10 +01:00
-modified_at: 2010-05-20 22:00:10 +01:00
+modified_at: 2010-06-05 22:00:10 +01:00
 ---
 Vom sonnigen Park von Monza in Norditalien geht die DSTM-Reise nun weiter ins deutlich kühlere Kanada durch die engen Gassen von Trois-Rivières.
 
@@ -17,5 +17,7 @@ Auf dem einzigen Stadtkurs im Kalender tritt CTDP RaceCar zum ersten Mal im blau
 Außerdem werben die vier CTDP RaceCar Autos ab Canada City für einen weiteren Sponsor: Die Logos von danielprogramming.com zieren nun die Heckschürze des Cylon.
 
 <%= gallery_image('/news/images/canadarender.jpg', 'rel1') %> <%= gallery_image('/news/images/cylonheck.jpg', 'rel1') %>
+
+Update: Auch der Lauf in Canada City wird natürlich wieder über MultiBC übertragen. "Übertragung am 06.06.2010 um ca. 20:00 Uhr":http://www.multibc.com/SIM/?p=102 .
 
 Auf zusätzliche Stoßfängerstabilisationen, die wegen der nahen Betonmauern (oder Fahrer anderer Teams) in Erwägung gezogen wurden, wird verzichtet.
