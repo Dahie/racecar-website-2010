@@ -11,4 +11,4 @@ h2. Willkommen bei RaceCar
 
 RaceCar ist ein virtuelles Motorsport-Team, das seit vielen Jahren in Online-Ligen verschiedener Rennsimulationen aktiv ist.
 
-<webgen:block name='content' chain='/news/news_entry.template; /news/release_10_07_03_dlm.html' />
+<webgen:block name='content' chain='/news/news_entry.template; /news/release_10_07_05_ef.html' />
