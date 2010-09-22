@@ -7,7 +7,7 @@ link:
 ---
 h2. Aktuellste News
 
-<webgen:block name='content' chain='news_entry.template; release_10_09_15_wtcc_puebla.html' />
+<webgen:block name='content' chain='news_entry.template; release_10_09_22_wtcc_pau.html' />
 
 h2. Alle News
 
