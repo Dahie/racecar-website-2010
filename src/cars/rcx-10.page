@@ -8,5 +8,6 @@ Zur zweiten GP3DL Saison wurde an einem Nachfolger für den erfolgreichen RC-09 
 
 h3. Galerie
 
-<%= gallery_image('images/RCX-10/64.jpg', :rel => 'rel1') %> <%= gallery_image('images/RCX-10/65.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-10/66.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RCX-10/64.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-10/65.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-10/66.jpg', :rel => 'lightbox rel1') %>

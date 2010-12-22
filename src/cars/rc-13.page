@@ -9,13 +9,13 @@ An den Start ging er erstmals im September 2003 in der GP4IL und F1 Simracing Le
 
 h3. Galerie
 
-<%= gallery_image('images/RC-13/74.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-13/75.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-13/76.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-13/77.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-13/78.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-13/79.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-13/80.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-13/74.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-13/75.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-13/76.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-13/77.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-13/78.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-13/79.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-13/80.jpg', :rel => 'lightbox rel1') %>
 
 h3. Download
 

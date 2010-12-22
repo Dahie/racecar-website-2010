@@ -8,6 +8,6 @@ Nachdem sich der RaceCar RC-07 nach den ersten Rennen der GP3DL nicht als der gr
 
 h3. Galerie
 
-<%= gallery_image('images/RCX-08/61.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-08/62.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-08/63.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RCX-08/61.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-08/62.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-08/63.jpg', :rel => 'lightbox rel1') %>

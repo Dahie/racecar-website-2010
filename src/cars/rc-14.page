@@ -11,32 +11,32 @@ h3. Galerie
 
 h4. GrandPrix 4
 
-<%= gallery_image('images/RC-14/GP4/100.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-14/GP4/101.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-14/GP4/102.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-14/GP4/103.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-14/GP4/104.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-14/GP4/105.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-14/GP4/100.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-14/GP4/101.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-14/GP4/102.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-14/GP4/103.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-14/GP4/104.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-14/GP4/105.jpg', :rel => 'lightbox rel1') %>
 
 h4. F1 Challenge
 
-<%= gallery_image('images/RC-14/F1C/106.jpg', :rel => 'rel2') %>
-<%= gallery_image('images/RC-14/F1C/107.jpg', :rel => 'rel2') %>
-<%= gallery_image('images/RC-14/F1C/108.jpg', :rel => 'rel2') %>
-<%= gallery_image('images/RC-14/F1C/109.jpg', :rel => 'rel2') %>
-<%= gallery_image('images/RC-14/F1C/110.jpg', :rel => 'rel2') %>
-<%= gallery_image('images/RC-14/F1C/111.jpg', :rel => 'rel2') %>
+<%= gallery_image('images/RC-14/F1C/106.jpg', :rel => 'lightbox rel2') %>
+<%= gallery_image('images/RC-14/F1C/107.jpg', :rel => 'lightbox rel2') %>
+<%= gallery_image('images/RC-14/F1C/108.jpg', :rel => 'lightbox rel2') %>
+<%= gallery_image('images/RC-14/F1C/109.jpg', :rel => 'lightbox rel2') %>
+<%= gallery_image('images/RC-14/F1C/110.jpg', :rel => 'lightbox rel2') %>
+<%= gallery_image('images/RC-14/F1C/111.jpg', :rel => 'lightbox rel2') %>
 
 h4. Render
 
-<%= gallery_image('images/RC-14/render/112.jpg', :rel => 'rel3') %>
-<%= gallery_image('images/RC-14/render/113.jpg', :rel => 'rel3') %>
-<%= gallery_image('images/RC-14/render/114.jpg', :rel => 'rel3') %>
-<%= gallery_image('images/RC-14/render/115.jpg', :rel => 'rel3') %>
-<%= gallery_image('images/RC-14/render/116.jpg', :rel => 'rel3') %>
-<%= gallery_image('images/RC-14/render/117.jpg', :rel => 'rel3') %>
-<%= gallery_image('images/RC-14/render/118.jpg', :rel => 'rel3') %>
-<%= gallery_image('images/RC-14/render/119.jpg', :rel => 'rel3') %>
+<%= gallery_image('images/RC-14/render/112.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/render/113.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/render/114.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/render/115.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/render/116.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/render/117.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/render/118.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/render/119.jpg', :rel => 'lightbox rel3') %>
 
 h3. Downloads
 

@@ -10,13 +10,18 @@ h3. Galerie
 
 h4. Standardversion
 
-<%= gallery_image('images/RC-09/37.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-09/38.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-09/39.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-09/40.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-09/37.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-09/38.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-09/39.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-09/40.jpg', :rel => 'lightbox rel1') %>
 
 h4. 11. September 2001
 
 Die Anschläge auf das World Trade Center am 11. September 2001 hinterließen auch in der GP3DL ihre Spuren. Die meisten Teams bezeugten mit amerikanischen Flaggen ihre Betroffenheit. Für die letzten zwei Rennen der GP3DL Saison 2001 starteten auch die RaceCar RC-09 in entsprechender Lackierung. 
 
-<%= gallery_image('images/RC-09/58.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-09/59.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-09/60.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-09/55.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-09/56.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-09/57.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-09/58.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-09/59.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-09/60.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-09/55.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-09/56.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-09/57.jpg', :rel => 'lightbox rel1') %>

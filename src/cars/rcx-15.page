@@ -8,11 +8,11 @@ Der erste Formel 1 Bolide seit der Grand Prix 4 Zeit ist der RCX-15, basierend a
 
 h3. Galerie
 
-<%= gallery_image('images/RCX-15/143.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-15/144.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-15/145.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-15/146.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-15/147.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-15/148.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-15/149.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RCX-15/150.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RCX-15/143.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-15/144.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-15/145.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-15/146.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-15/147.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-15/148.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-15/149.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RCX-15/150.jpg', :rel => 'lightbox rel1') %>

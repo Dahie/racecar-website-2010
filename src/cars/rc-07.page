@@ -8,5 +8,6 @@ RaceCar startete mit dem RC-07 in die erste Saison der GP3DL. Aufgrund der kurze
 
 h3. Galerie
 
-<%= gallery_image('images/RC-07/34.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-07/35.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-07/36.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-07/34.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-07/35.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-07/36.jpg', :rel => 'lightbox rel1') %>

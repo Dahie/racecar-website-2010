@@ -12,5 +12,6 @@ h3. Galerie
 
 h4. Render
 
-<%= gallery_image('images/RC-10-EF/1.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-10-EF/3.jpg', :rel => 'rel1') %>
-<%= gallery_image('images/RC-10-EF/2.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-10-EF/1.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-10-EF/3.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-10-EF/2.jpg', :rel => 'lightbox rel1') %>
