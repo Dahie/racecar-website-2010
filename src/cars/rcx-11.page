@@ -8,4 +8,4 @@ Ende 2002 kam eine gravierende Änderung auf die Teams zu. Die neue Simulation G
 
 h3. Galerie
 
-<%= gallery_image('images/RCX-11/69.jpg', 'rel1') %> <%= gallery_image('images/RCX-11/70.jpg', 'rel1') %>
+<%= gallery_image('images/RCX-11/69.jpg', :rel => 'rel1') %> <%= gallery_image('images/RCX-11/70.jpg', :rel => 'rel1') %>

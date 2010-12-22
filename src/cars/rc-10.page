@@ -12,11 +12,11 @@ h3. Galerie
 
 h4. RC-10
 
-<%= gallery_image('images/RC-10/71.jpg', 'rel1') %>
+<%= gallery_image('images/RC-10/71.jpg', :rel => 'rel1') %>
 
 h4. RC-10B
 
-<%= gallery_image('images/RC-10/72.jpg', 'rel1') %>
+<%= gallery_image('images/RC-10/72.jpg', :rel => 'rel1') %>
 
 h3. Downloads
 

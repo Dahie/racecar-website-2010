@@ -8,9 +8,9 @@ Um dem neuen Sponsor SI Entertainment Rechnung zu tragen startete der RC-12 nich
 
 h3. Galerie
 
-<%= gallery_image('images/RC-12/81.jpg', 'rel1') %> <%= gallery_image('images/RC-12/82.jpg', 'rel1') %>
-<%= gallery_image('images/RC-12/83.jpg', 'rel1') %> <%= gallery_image('images/RC-12/84.jpg', 'rel1') %>
-<%= gallery_image('images/RC-12/85.jpg', 'rel1') %> <%= gallery_image('images/RC-12/86.jpg', 'rel1') %>
+<%= gallery_image('images/RC-12/81.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-12/82.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-12/83.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-12/84.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-12/85.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-12/86.jpg', :rel => 'rel1') %>
 
 h3. Downloads
 

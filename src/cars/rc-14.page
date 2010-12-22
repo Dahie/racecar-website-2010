@@ -11,22 +11,32 @@ h3. Galerie
 
 h4. GrandPrix 4
 
-!images/RC-14/GP4/100_thumbnail.jpg!:images/RC-14/GP4/100.jpg !images/RC-14/GP4/101_thumbnail.jpg!:images/RC-14/GP4/101.jpg
-!images/RC-14/GP4/102_thumbnail.jpg!:images/RC-14/GP4/102.jpg !images/RC-14/GP4/103_thumbnail.jpg!:images/RC-14/GP4/103.jpg
-!images/RC-14/GP4/104_thumbnail.jpg!:images/RC-14/GP4/104.jpg !images/RC-14/GP4/105_thumbnail.jpg!:images/RC-14/GP4/105.jpg
+<%= gallery_image('images/RC-14/GP4/100.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-14/GP4/101.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-14/GP4/102.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-14/GP4/103.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-14/GP4/104.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-14/GP4/105.jpg', :rel => 'rel1') %>
 
 h4. F1 Challenge
 
-!images/RC-14/F1C/106_thumbnail.jpg!:images/RC-14/F1C/106.jpg !images/RC-14/F1C/107_thumbnail.jpg!:images/RC-14/F1C/107.jpg
-!images/RC-14/F1C/108_thumbnail.jpg!:images/RC-14/F1C/108.jpg !images/RC-14/F1C/109_thumbnail.jpg!:images/RC-14/F1C/109.jpg
-!images/RC-14/F1C/110_thumbnail.jpg!:images/RC-14/F1C/110.jpg !images/RC-14/F1C/111_thumbnail.jpg!:images/RC-14/F1C/111.jpg
+<%= gallery_image('images/RC-14/F1C/106.jpg', :rel => 'rel2') %>
+<%= gallery_image('images/RC-14/F1C/107.jpg', :rel => 'rel2') %>
+<%= gallery_image('images/RC-14/F1C/108.jpg', :rel => 'rel2') %>
+<%= gallery_image('images/RC-14/F1C/109.jpg', :rel => 'rel2') %>
+<%= gallery_image('images/RC-14/F1C/110.jpg', :rel => 'rel2') %>
+<%= gallery_image('images/RC-14/F1C/111.jpg', :rel => 'rel2') %>
 
 h4. Render
 
-!images/RC-14/Render/112_thumbnail.jpg!:images/RC-14/Render/112.jpg !images/RC-14/Render/113_thumbnail.jpg!:images/RC-14/Render/113.jpg
-!images/RC-14/Render/114_thumbnail.jpg!:images/RC-14/Render/114.jpg !images/RC-14/Render/115_thumbnail.jpg!:images/RC-14/Render/115.jpg
-!images/RC-14/Render/116_thumbnail.jpg!:images/RC-14/Render/116.jpg !images/RC-14/Render/117_thumbnail.jpg!:images/RC-14/Render/117.jpg
-!images/RC-14/Render/118_thumbnail.jpg!:images/RC-14/Render/118.jpg !images/RC-14/Render/119_thumbnail.jpg!:images/RC-14/Render/119.jpg
+<%= gallery_image('images/RC-14/render/112.jpg', :rel => 'rel3') %>
+<%= gallery_image('images/RC-14/render/113.jpg', :rel => 'rel3') %>
+<%= gallery_image('images/RC-14/render/114.jpg', :rel => 'rel3') %>
+<%= gallery_image('images/RC-14/render/115.jpg', :rel => 'rel3') %>
+<%= gallery_image('images/RC-14/render/116.jpg', :rel => 'rel3') %>
+<%= gallery_image('images/RC-14/render/117.jpg', :rel => 'rel3') %>
+<%= gallery_image('images/RC-14/render/118.jpg', :rel => 'rel3') %>
+<%= gallery_image('images/RC-14/render/119.jpg', :rel => 'rel3') %>
 
 h3. Downloads
 

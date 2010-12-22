@@ -8,7 +8,7 @@ Zusammen mit dem Radioactive Tiger Team stieg RaceCar 2005 in die Motorspeedway 
 
 h3. Galerie
 
-<%= gallery_image('images/RC-01-NC/130.jpg', 'rel1') %> <%= gallery_image('images/RC-01-NC/131.jpg', 'rel1') %>
-<%= gallery_image('images/RC-01-NC/132.jpg', 'rel1') %> <%= gallery_image('images/RC-01-NC/133.jpg', 'rel1') %>
-<%= gallery_image('images/RC-01-NC/134.jpg', 'rel1') %> <%= gallery_image('images/RC-01-NC/135.jpg', 'rel1') %>
-<%= gallery_image('images/RC-01-NC/136.jpg', 'rel1') %>
+<%= gallery_image('images/RC-01-NC/130.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-01-NC/131.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-01-NC/132.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-01-NC/133.jpg', 'rel1') %>
+<%= gallery_image('images/RC-01-NC/134.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-01-NC/135.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-01-NC/136.jpg', :rel => 'rel1') %>

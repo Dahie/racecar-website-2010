@@ -8,7 +8,7 @@ Nach dem Ende der Grand Prix 4 Offlineligen suchte sich RaceCar neue Betätigung
 
 h3. Galerie
 
-<%= gallery_image('images/RC-01-GT/120.jpg', 'rel1') %> <%= gallery_image('images/RC-01-GT/121.jpg', 'rel1') %>
-<%= gallery_image('images/RC-01-GT/122.jpg', 'rel1') %> <%= gallery_image('images/RC-01-GT/123.jpg', 'rel1') %>
-<%= gallery_image('images/RC-01-GT/124.jpg', 'rel1') %> <%= gallery_image('images/RC-01-GT/125.jpg', 'rel1') %>
-<%= gallery_image('images/RC-01-GT/126.jpg', 'rel1') %> <%= gallery_image('images/RC-01-GT/127.jpg', 'rel1') %>
+<%= gallery_image('images/RC-01-GT/120.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-01-GT/121.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-01-GT/122.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-01-GT/123.jpg', 'rel1') %>
+<%= gallery_image('images/RC-01-GT/124.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-01-GT/125.jpg', :rel => 'rel1') %>
+<%= gallery_image('images/RC-01-GT/126.jpg', :rel => 'rel1') %> <%= gallery_image('images/RC-01-GT/127.jpg', 'rel1') %>

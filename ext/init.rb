@@ -19,12 +19,20 @@ def gallery_image target_file, options=nil
     html += " rel=\"#{options[:rel]}\"" if options[:rel]
     html += " style=\"#{options[:style]}\"" if options[:style]
     html += " class=\"#{options[:class]}\"" if options[:class]
+    html += " title=\"#{options[:title]}\"" if options[:title]
     html += " id=\"#{options[:id]}\"" if options[:id]
   end
-  html += ">#{thumbnail_image(thumbnail_file)}</a>"
+  html += ">#{image_tag(thumbnail_file)}</a>"
   html
 end
 
-def thumbnail_image file, alt=""
-  "<img src=\"#{file}\" alt=\"#{alt}\" \>"
+def image_tag src, options=nil
+  html = "<img src=\"#{src}\" "
+  if options
+    html += "alt=\"#{options[:alt]}\" " if options[:alt]
+    html += "class=\"#{options[:class]}\" " if options[:class]
+    html += "id=\"#{options[:id]}\" " if options[:id]
+  end
+  html += "\>"
+  html
 end
