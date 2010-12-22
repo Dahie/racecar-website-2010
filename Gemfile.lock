@@ -6,9 +6,7 @@ GEM
       haml (>= 3.0.4)
     haml (3.0.25)
     kramdown (0.10.0)
-    mini_magick (3.1)
-      subexec (~> 0.0.4)
-    subexec (0.0.4)
+    rmagick (2.13.1)
     webgen (0.5.14)
       cmdparse (>= 2.0.2)
       kramdown (= 0.10.0)
@@ -19,5 +17,5 @@ PLATFORMS
 DEPENDENCIES
   compass
   haml
-  mini_magick
+  rmagick
   webgen (~> 0.5.14)

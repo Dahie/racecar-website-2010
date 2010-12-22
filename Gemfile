@@ -1,5 +1,5 @@
 source "http://rubygems.org"
 gem "compass"
 gem "haml"
-gem "mini_magick"
+gem "rmagick"
 gem "webgen", "~>0.5.14"
