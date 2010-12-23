@@ -7,7 +7,8 @@
     <meta name="keywords" content="RaceCar, RC" />
     <meta name="author" content="Daniel Senff  / Original design: Daniel Senff - http://danielsenff.de/" />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
-    <link rel="stylesheet" type="text/css" href="{relocatable: default.css}" />
+    <link rel="stylesheet" type="text/css" href="{relocatable: css/default.css}" />
+    <link rel="stylesheet" type="text/css" href="{relocatable: css/lightbox.css}" />
     <script src="{relocatable: /js/jquery-1.4.4.min.js}"></script>
     <script src="{relocatable: /js/lightbox.js}"></script>
     <link rel="shortcut icon" href="{relocatable: /images/favicon.ico}" />

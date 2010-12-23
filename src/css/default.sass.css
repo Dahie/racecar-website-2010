@@ -29,11 +29,11 @@ $racecar_cyan: #00c0ff
 body
   margin: 0
   font: 76% tahoma, verdana, sans-serif
-  background: $racecar_blue url(images/bg.jpg) no-repeat bottom right
+  background: $racecar_blue url(../images/bg.jpg) no-repeat bottom right
   color: #222222
 
 #wrap
-  background: url(images/bg_bottom.png) no-repeat bottom right fixed
+  background: url(../images/bg_bottom.png) no-repeat bottom right fixed
   overflow: auto
   padding: 30px 0
 
@@ -67,7 +67,7 @@ p
   vertical-align: bottom
   color: #555555
   overflow: auto
-  background: url(images/rc-banner-1.jpg) no-repeat center center
+  background: url(../images/rc-banner-1.jpg) no-repeat center center
   height: 150px
   h1
     margin: 90px 5px 1px 5px
@@ -195,35 +195,35 @@ p
         &:hover
           border-color: $racecar_cyan
         &#rc14
-          background: url(cars/images/RC-14/GP4/103_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RC-14/GP4/103_thumbnail.jpg) no-repeat center center
         &#rc13
-          background: url(cars/images/RC-13/77_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RC-13/77_thumbnail.jpg) no-repeat center center
         &#rc12
-          background: url(cars/images/RC-12/85_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RC-12/85_thumbnail.jpg) no-repeat center center
         &#rc11
-          background: url(cars/images/RC-11/33_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RC-11/33_thumbnail.jpg) no-repeat center center
         &#rc10
-          background: url(cars/images/RC-10/72_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RC-10/72_thumbnail.jpg) no-repeat center center
         &#rc09
-          background: url(cars/images/RC-09/37_thumbnail.jpg) no-repeat center 80%
+          background: url(../cars/images/RC-09/37_thumbnail.jpg) no-repeat center 80%
         &#rc07
-          background: url(cars/images/RC-07/36_thumbnail.jpg) no-repeat center 70%
+          background: url(../cars/images/RC-07/36_thumbnail.jpg) no-repeat center 70%
         &#rc09cy
-          background: url(cars/images/RC-09-CY/grab_214_thumbnail.jpg) no-repeat center 40%
+          background: url(../cars/images/RC-09-CY/grab_214_thumbnail.jpg) no-repeat center 40%
         &#rc10ef
-          background: url(cars/images/RC-10-EF/2_thumbnail.jpg) no-repeat center 40%
+          background: url(../cars/images/RC-10-EF/2_thumbnail.jpg) no-repeat center 40%
         &#rc01gt
-          background: url(cars/images/RC-01-GT/122_thumbnail.jpg) no-repeat center 70%
+          background: url(../cars/images/RC-01-GT/122_thumbnail.jpg) no-repeat center 70%
         &#rc01nc
-          background: url(cars/images/RC-01-NC/132_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RC-01-NC/132_thumbnail.jpg) no-repeat center center
         &#rcx11
-          background: url(cars/images/RCX-11/69_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RCX-11/69_thumbnail.jpg) no-repeat center center
         &#rcx15
-          background: url(cars/images/RCX-15/147_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RCX-15/147_thumbnail.jpg) no-repeat center center
         &#rcx08
-          background: url(cars/images/RCX-08/63_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RCX-08/63_thumbnail.jpg) no-repeat center center
         &#rcx10
-          background: url(cars/images/RCX-10/65_thumbnail.jpg) no-repeat center center
+          background: url(../cars/images/RCX-10/65_thumbnail.jpg) no-repeat center center
         a
           width: 200px
           height: 70px
@@ -295,7 +295,7 @@ p
           +transitions
           transition: all 200ms ease-out
           &:hover
-            background: white url(images/gradient2.png) repeat-x
+            background: white url(../images/gradient2.png) repeat-x
             color: $racecar_cyan
             text-decoration: none
         &.webgen-menu-item-selected, &.webgen-menu-submenu-inhierarchy
