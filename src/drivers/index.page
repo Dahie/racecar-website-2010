@@ -13,50 +13,21 @@ h4. Organisation
 * {link: /drivers/schoenhofen.html} Organisation
 * {link: /drivers/fredrich.html} Organisation
 
-h3. Deutsche Liga Meisterschaft - WTCC
-
-Auf Basis der Rennsimulation Race On werden in der Deutschen Liga Meisterschaft 12 Läufe mit Fahrzeugen der World Touring Car Championship (WTCC) ausgetragen.
-
-h4. Fahrer
-
-* #6 {link: /drivers/neidhardt.html}
-* #7 {link: /drivers/fredrich.html}
-
-h4. Fahrzeug
-
-Beide RaceCar-Piloten starten in Chevrolet Lacetti. Da in der DLM auf absehbare Zeit keine eigenen Skins erlaubt sind, treten die Fahrzeuge in den Hausfarben des Herstellers an.
-
-h3. Deutsche Simracing Tourenwagenmeisterschaft
-
-Die "Deutsche Simracing Tourenwagenmeisterschaft DSTM":dstm wird in der Saison 2009/2010 zum ersten Mal im Rahmen des Simracing Deutschland e.V. ausgetragen. Die Serie finanziert sich über Sponsoren sowie Mitgliedsbeiträge. Gefahren wird mit eigens für die DSTM entwickelten Einheitstourenwagen mit Frontantrieb. Die Rennen finden einmal im Monat in zwei Starterfeldern statt.
-
-RaceCar tritt in der Saison 2009/2010 als Partner des "Cars and Tracks Development Projects":ctdp als CTDP RaceCar mit 4 Fahrern an.
-
-h4. Fahrer
-
-* #24 {link: /drivers/fredrich.html}
-* #31 {link: /drivers/neidhardt.html}
-* #43 {link: /drivers/vollmering.html}
-* #50 {link: /drivers/schoenhofen.html}
-
-h4. Fahrzeug
-
-In der DSTM wird der Einheitstourenwagen CylonRS des CTDP verwendet. Bei RaceCar ist er als RaceCar RC-09-CY eingegliedert.
-
-{link: /cars/rc-09-cy.html} in der Auto-Sektion
-
 h3. Endurancefactory
 
-In der Saison 2010 startete RaceCar zum ersten Mal in der Langstreckenmeisterschaft der "Endurancefactory":http://www.endurancefactory.de. Jedes der insgesamt 10 Rennen dieser Serie dauert in etwa 180 Minuten, was eine große Herausforderung für den einzelnen Piloten bedeutet. 50 Fahrer in verschiedenen Fahrzeugkategorien treten an um am Ende die Meisterschaft nach Hause fahren zu können. RaceCar startet mit einem Courage C65, alias RC-10-EF in der P2-Kategorie.
+In der Saison 2010 startete RaceCar zum ersten Mal in der Langstreckenmeisterschaft der "Endurancefactory":http://www.endurancefactory.de. In der ersten Saison starteten Mario und Jens Ruden in der LMP-Kategorie mit dem RaceCar RC-10-EF. Zu Beginn der zweiten Saison gesellte sich Daniel Fredrich hinzu. Gestartet wird nun in der GT-Travel Kategorie mit dem RC-11-EF, einem Aston Martin DBR.
 
 h4. Fahrer
 
-* #90 {link: /drivers/mruden.html}
-* #92 {link: /drivers/jruden.html}
+* #44 {link: /drivers/fredrich.html}
+* #22 {link: /drivers/mruden.html}
+* #22 {link: /drivers/jruden.html}
 
 h4. Fahrzeug
 
-{link: /cars/rc-10-ef.html} in der Auto-Sektion
+RaceCar tritt mit einem Aston Martin DBR nach GT1-Reglement an. Bei RaceCar ist das Fahrzeug als RC-11-EF eingegliedert.
+
+{link: /cars/rc-11-ef.html} in der Auto-Sektion
 
 [dstm]http://www.dstm-racing.de
 [ctdp]http://www.ctdp.net
