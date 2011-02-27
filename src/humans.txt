@@ -1,0 +1,13 @@
+/* About the authors */
+
+Author: Daniel Senff
+Contact: public [at] danielsenff.de
+Twitter: @dahie
+From: Berlin, Germany
+
+/* About this site */
+
+Language: German, English
+Doctype: HTML5 with CSS3
+Tools: webgen, compass
+Editor: komodo, vim

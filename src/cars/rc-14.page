@@ -29,14 +29,14 @@ h4. F1 Challenge
 
 h4. Render
 
-<%= gallery_image('images/RC-14/render/112.jpg', :rel => 'lightbox rel3') %>
-<%= gallery_image('images/RC-14/render/113.jpg', :rel => 'lightbox rel3') %>
-<%= gallery_image('images/RC-14/render/114.jpg', :rel => 'lightbox rel3') %>
-<%= gallery_image('images/RC-14/render/115.jpg', :rel => 'lightbox rel3') %>
-<%= gallery_image('images/RC-14/render/116.jpg', :rel => 'lightbox rel3') %>
-<%= gallery_image('images/RC-14/render/117.jpg', :rel => 'lightbox rel3') %>
-<%= gallery_image('images/RC-14/render/118.jpg', :rel => 'lightbox rel3') %>
-<%= gallery_image('images/RC-14/render/119.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/Render/112.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/Render/113.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/Render/114.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/Render/115.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/Render/116.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/Render/117.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/Render/118.jpg', :rel => 'lightbox rel3') %>
+<%= gallery_image('images/RC-14/Render/119.jpg', :rel => 'lightbox rel3') %>
 
 h3. Downloads
 
