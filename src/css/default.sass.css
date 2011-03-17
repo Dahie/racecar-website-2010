@@ -308,7 +308,16 @@ p
               right: 4px solid
               bottom: 2px solid
               color: $racecar_cyan
-
+  table.standings
+    margin-top: 20px  
+    margin-left: 25px
+    cellpadding: 1px
+    cellspacing: 1px
+    border: 0px
+    color: $racecar_blue
+  tr.highlight
+    color: $racecar_cyan
+   
 #footer
   margin: 0 auto 20px auto
   width: 860px

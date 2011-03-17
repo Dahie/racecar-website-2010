@@ -52,7 +52,89 @@
         <h2 class="sidelink menuheader"><a id="sitemenu"></a>Menü:</h2>
         <div id="menu">{menu: {max_levels: 1, used_nodes: files}}</div>
         <a class="hide" href="#top" accesskey="1">Top of page</a>
-
+        
+        <table class="standings">
+          <tr>
+            <td colspan=3><b>GT Travel Fahrerwertung</b></td>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>David Putzke</td>
+            <td>99</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Andreas Leykamm</td>
+            <td>43</td>
+          </tr>
+          <tr class="highlight">
+            <td>7.</td>
+            <td>Daniel Fredrich</td>
+            <td>39</td>
+          </tr>
+          <tr>
+            <td>8.</td>
+            <td>Ronny Granzow</td>
+            <td>37</td>
+          </tr>
+          <tr class="highlight">
+            <td>16.</td>
+            <td>Jens Ruden</td>
+            <td>10</td>
+          </tr>
+          <tr class="highlight">
+            <td>19.</td>
+            <td>Mario Ruden</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>19.</td>
+            <td>Patrick Schaefer</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td colspan=3>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=3><b>GT Travel Teamwertung</b></td>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Independ. SimRacer 3</td>
+            <td>145</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Independ. SimRacer 1</td>
+            <td>111</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Mad-Croc Racing</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Independ. Sim-Racer 2</td>
+            <td>70</td>
+          </tr>
+          <tr class="highlight">
+            <td>5.</td>
+            <td>RaceCar</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Endurancefactory II</td>
+            <td>39</td>
+          </tr>
+          <tr class="highlight">
+            <td>11.</td>
+            <td>RaceCar II</td>
+            <td>10</td>
+          </tr>
+        </table>
 
         <h3 style="display:none;">Partner</h3>
           
