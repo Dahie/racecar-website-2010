@@ -38,12 +38,8 @@
         <ul class="linklist">
           <li><a href="http://www.ctdp.net"><img src="{relocatable: /images/ctdp_rc_logo.png}" /></a></li>
           <li><a href="http://www.si-technics.de" ><img src="{relocatable: /images/si_rc_logo.png}" style="margin-bottom: 18px;" /></a></li>
-          <li><a href="http://www.dstm-racing.de"><img src="{relocatable: /images/dstm_rc_logo.png}" /></a></li>
+          <li><a href="http://www.endurancefactory.de"><img src="{relocatable: /images/ef_rc_logo.png}"  style="margin-bottom: 18px;" /></a></li>
           <li><a href="http://www.danielprogramming.com"><img src="{relocatable: /images/danielprogramming_rc_logo.png}" style="margin-bottom: 18px;" /></a></li>
-        </ul>
-        <ul class="linklist">
-          <li><a href="http://www.endurancefactory.de"><img src="{relocatable: /images/ef_rc_logo.png}"  style="margin-bottom: 10px;" /></a></li>
-          <li><a href="http://wtcc.dlm-racing.eu/"><img src="{relocatable: /images/dlm_rc_logo.png}" /></a></li>
         </ul>
       </div>
 
