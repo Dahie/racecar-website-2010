@@ -21,7 +21,7 @@ h4. Fakten:
 * Kategorie: GT1 Langstreckenrennen (2 Stunden Renndauer, Sonntagabends)
 * Fahrzeug: Aston Martin DBR9 (RaceCar RC-11-EF)
 
-<%= gallery_image('gallery/images/GRAB_025.JPG', 'rel1') %> <%= gallery_image('/gallery/images/GRAB_021.jpg', 'rel1') %>
+<%= gallery_image('gallery/images/GRAB_025.JPG', 'rel1') %> <%= gallery_image('/gallery/images/GRAB_021.JPG', 'rel1') %>
 
 h3. Weitere Ligen
 
