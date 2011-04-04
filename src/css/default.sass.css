@@ -316,9 +316,8 @@ p
     cellspacing: 1px
     border: 0px
     color: $racecar_blue
-    background: white
   tr.highlight
-    color: $racecar_cyan
+    font-weight: bold
    
 #footer
   margin: 0 auto 20px auto
