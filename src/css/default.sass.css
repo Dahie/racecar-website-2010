@@ -269,7 +269,8 @@ p
     top: 10px
     bottom: 40px
   font-size: 1em
-  background: white
+  //background: white
+  background: url(../images/bg_main.png)
   line-height: 1.3em
   img
     margin-left: 32px
@@ -315,6 +316,7 @@ p
     cellspacing: 1px
     border: 0px
     color: $racecar_blue
+    background: white
   tr.highlight
     color: $racecar_cyan
    
