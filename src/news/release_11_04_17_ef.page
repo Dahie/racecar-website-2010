@@ -5,8 +5,19 @@ sort_info: 2011-04-03 22:25:10
 created_at: 2011-04-03 22:25:10 +01:00
 modified_at: 2011-04-03 22:25:10 +01:00
 ---
-Der Knoten ist geplatzt! Daniel Fredrich holte seinen ersten Sieg in der Endurancefactory. Auf dem chinesischen Kurs Zhuhai war er schneller als alle Konkurrenten und fuhr damit den ersten RaceCar-Sieg in einem GT-Sportwagen und den ersten seit einem Jahr überhaupt, ein.
+Der Knoten ist geplatzt! Daniel Fredrich holte seinen ersten Sieg in der Endurancefactory. Auf dem chinesischen Kurs Zhuhai war er schneller als alle Konkurrenten und fuhr damit den ersten RaceCar-Sieg in einem GT-Sportwagen und den ersten seit einem Jahr überhaupt, ein. Leider waren aber auch wieder zwei Motorschäden zu beklagen, die Jens und Mario Ruden aus dem Rennen warfen.
 
-In Kürze mehr.
+h3. Fahrerstatements
 
-<%= gallery_image('/news/images/GRAB_052.jpg', 'rel1') %> <%= gallery_image('/news/images/GRAB_053.jpg', 'rel1') %>
+h4. Daniel Fredrich (Position 1)
+
+*Qualifying:* Im Vorfeld war ich mir recht sicher, dass wir von der Pace ähnlich gut dabei sind wie schon in Montreal und auf jeden Fall besser als noch in San Luis. Das bestätigte sich dann mit dem zweiten Platz in der Qualifikation. Auch P3 und P4 gingen an Aston Martins, schwer zu sagen ob die Strecke dem Auto entgegen kam. Für Jens und Mario reichte es leider nur zu Platz 9 (Jens) und Position 11 (Mario).
+
+*Rennen:* Am Start konnte ich Platz 2 halten und nach der ersten Runde startete ich eine Attacke auf den Führenden. Diese ging jedoch schief und es ist der Umsicht des Konkurrenten zu verdanken dass es nicht geknallt hat.
+
+Im Lauf des ersten Stints blieb der Abstand nach vorne dann so zwischen 5-7 Sekunden. Meine Taktik war zu dem Zeitpunkt auch Sprit zu sparen und daher störte mich der Abstand nicht wirklich. Der Saleen in Front ging zwei Runden vor mir in die Box, für mich das Zeichen auf Motorprogramm 2 zu schalten und zu versuchen die Lücke zuzufahren. Entsprechend groß war die Freude nach dem Stopp vor dem Saleen raus zu kommen. Besser noch er war nicht in Sichtweite. Er wurde in der Box geblitzt und musste eine Drive Thru' absitzen. Einige Sekunden hinter mir lag plötzlich eine Corvette, die auf mittlharten Reifen fuhr und somit diese nicht wechseln musste beim Stopp. Aber dank meiner frischen weichen Reifen konnte ich den Abstand vergrößern und da sich Platz 2 und 3 sogar noch bekämpften hatte ich am Ende einen Vorsprung von über 30 Sekunden.
+
+Grandioses Rennen, endlich in der mitte vom Podest. Schade für die Rudens, beide konnten im hart umkämpften Mittelfeld ihr Material nicht so schonen wie ich und erlitten Motorschäden.
+
+<%= gallery_image('/news/images/GRAB_079.jpg', 'rel1') %> <%= gallery_image('/news/images/GRAB_080.jpg', 'rel1') %>
+<%= gallery_image('/news/images/GRAB_073.jpg', 'rel1') %> <%= gallery_image('/news/images/GRAB_086.jpg', 'rel1') %>
