@@ -7,7 +7,7 @@ link:
 ---
 h2. Aktuellste News
 
-<webgen:block name='content' chain='news_entry.template; release_11_04_22_tc.html' />
+<webgen:block name='content' chain='news_entry.template; release_11_05_02_ef.html' />
 
 h2. Alle News
 
