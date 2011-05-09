@@ -270,7 +270,7 @@ p
     bottom: 40px
   font-size: 1em
   //background: white
-  background: url(../images/bg_main.png)
+  background: url(../images/bg_main.png) no-repeat center bottom
   line-height: 1.3em
   img
     margin-left: 32px

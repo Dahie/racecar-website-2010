@@ -13,7 +13,7 @@
     <script src="{relocatable: /js/jquery-1.4.4.min.js}"></script>
     <script src="{relocatable: /js/lightbox.js}"></script>
     <link rel="shortcut icon" href="{relocatable: /images/favicon.ico}" />
-    <link href="/news/news.atom" rel="alternate" type="application/atom+xml" />
+    <link href="{relocatable: news/news.atom}" rel="alternate" type="application/atom+xml" />
     <title>RaceCar - {title: }</title>
   </head>
 

@@ -8,7 +8,7 @@ Mit dem RC-11-EF startete RaceCar in die zweite Endurancefactory Saison. Der Ast
 
 h3. Galerie
 
-<%= gallery_image('images/RC-11-EF/GRAB_052.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-EF/GRAB_052.JPG', :rel => 'lightbox rel1') %>
 <%= gallery_image('images/RC-11-EF/GRAB_039.jpg', :rel => 'lightbox rel1') %>
 <%= gallery_image('images/RC-11-EF/GRAB_028.jpg', :rel => 'lightbox rel1') %>
 <%= gallery_image('images/RC-11-EF/GRAB_073.jpg', :rel => 'lightbox rel1') %>
