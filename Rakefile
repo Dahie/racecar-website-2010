@@ -129,14 +129,6 @@ namespace :generate do
     gallery_folders = %w( out/cars/images/ out/drivers/images/ out/gallery/images/ out/news/images/ )
 
     files = FileList.new images_list(gallery_folders, supported_image_types)
-    #files = FileList.new('out/**/*') do |fl|
-    #  fl.include('out/gallery/images/**/*', 'out/news/images/**/*', 'out/cars/images/**/*', 'out/drivers/images/**/*')
-      #fl.include(/\.jpg$|\.jpeg$|\.JPG|\.gif$|\.png$|\.PNG/)
-     # fl.exclude('out/**/*.txt', 'out/**/*.html' 'out/**/*.css')
-    #end
-
-    puts files
-
     create_thumbnails files
   end
   
