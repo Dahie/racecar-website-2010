@@ -56,17 +56,21 @@
           <tr>
             <td>1.</td>
             <td>David Putzke</td>
-            <td>163</td>
+            <td>179</td>
           </tr>
           <tr>
+            <td>2.</td>
+            <td>Danny Schubert</td>
+            <td>141</td>
+          </tr>          <tr>
             <td>3.</td>
             <td>Martin Putzke</td>
-            <td>110</td>
+            <td>131</td>
           </tr>
           <tr class="highlight">
             <td>4.</td>
             <td>Daniel Fredrich</td>
-            <td>91</td>
+            <td>109</td>
           </tr>
           <tr>
             <td>5.</td>
@@ -74,20 +78,16 @@
             <td>88</td>
           </tr>
           <tr class="highlight">
-            <td>16.</td>
+            <td>13.</td>
             <td>Mario Ruden</td>
-            <td>16</td>
+            <td>25</td>
           </tr>
           <tr class="highlight">
-            <td>18.</td>
+            <td>16.</td>
             <td>Jens Ruden</td>
-            <td>10</td>
+            <td>22</td>
           </tr>
-          <tr>
-            <td>18.</td>
-            <td>Rocco Froemmig</td>
-            <td>10</td>
-          </tr>
+
           <tr>
             <td colspan=3>
             </td>
@@ -98,12 +98,12 @@
           <tr>
             <td>1.</td>
             <td>Independ. SimRacer 3</td>
-            <td>226</td>
+            <td>272</td>
           </tr>
           <tr>
             <td>2.</td>
             <td>Independ. SimRacer 1</td>
-            <td>196</td>
+            <td>212</td>
           </tr>
           <tr>
             <td>3.</td>
@@ -113,22 +113,22 @@
           <tr class="highlight">
             <td>4.</td>
             <td>RaceCar</td>
-            <td>107</td>
+            <td>134</td>
           </tr>
           <tr>
             <td>5.</td>
             <td>Independ. Sim-Racer 2</td>
-            <td>88</td>
+            <td>102</td>
           </tr>
           <tr>
             <td>6.</td>
-            <td>WeHa Racing I</td>
-            <td>64</td>
+            <td>Schniep</td>
+            <td>65</td>
           </tr>
           <tr class="highlight">
-            <td>12.</td>
+            <td>11.</td>
             <td>RaceCar II</td>
-            <td>10</td>
+            <td>22</td>
           </tr>
         </table>
 
