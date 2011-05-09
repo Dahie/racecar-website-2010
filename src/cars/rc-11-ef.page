@@ -4,10 +4,11 @@ routed_title: Autos
 ---
 h2. RaceCar RC-11-EF
 
-Mit dem RC-11-EF startet RaceCar in die zweite Endurancefactory Saison. Der Aston Martin DBR startet zu Beginn der Saison in einer speziellen Interimslackierung von Mario Ruden, die die traditionelle weißblaue Lackierung mit Elementen und Mustern aus der Biochemie sowie der Computertechnik verbindet.
+Mit dem RC-11-EF startete RaceCar in die zweite Endurancefactory Saison. Der Aston Martin DBR ging zu Beginn der Saison in einer speziellen Interimslackierung von Mario Ruden an den Start. Sein Design brachte frischen Wind in die Wagengestaltung des Teams, das dankbar von Daniel Senff aufgenommen und für die reguläre Livery der Saison übernommen wurde..
 
 h3. Galerie
 
-<%= gallery_image('images/RC-11-EF/grab_003.jpg', :rel => 'lightbox rel1') %>
-<%= gallery_image('images/RC-11-EF/grab_005.jpg', :rel => 'lightbox rel1') %>
-<%= gallery_image('images/RC-11-EF/grab_014.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-EF/GRAB_052.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-EF/GRAB_039.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-EF/GRAB_028.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-EF/GRAB_073.jpg', :rel => 'lightbox rel1') %>
