@@ -1,13 +1,18 @@
-/* About the authors */
+/* TEAM */
 
 Author: Daniel Senff
-Contact: public [at] danielsenff.de
+Contact: public [at] danielsenff.de, http://www.danielsenff.de
 Twitter: @dahie
 From: Berlin, Germany
 
-/* About this site */
+/* THANKS */
+
+Name: Felix Schönhofen http://www.si-entertainment.com
+Name: Daniel Fredrich
+
+/* SITE */
 
 Language: German, English
-Doctype: HTML5 with CSS3
+Standards: HTML5, CSS3
 Tools: webgen, compass
-Editor: komodo, vim
+Software: komodo, vim

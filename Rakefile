@@ -117,20 +117,26 @@ end
 
 namespace :generate do
 
+  # product of paths and extensions
+  def images_list paths, extensions
+    paths.product(extensions).map { |tupel| tupel.join }
+  end
+
   desc "Generate thumbnails for gallery pictures"
   task :thumbnails do
-    files = FileList.new('out/cars/**/*.jpg') do |fl|
-      fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
-    end
-    files.add FileList.new('out/gallery/**/*.jpg') do |fl|
-      fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
-    end
-    files.add FileList.new('out/drivers/**/*.jpg') do |fl|
-      fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
-    end
-    files.add FileList.new('out/news/**/*.jpg') do |fl|
-      fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
-    end
+    
+    supported_image_types = %w( **/*.jpg **/*.jpeg **/*.JPG **/*.png **/*.PNG **/*.gif )
+    gallery_folders = %w( out/cars/images/ out/drivers/images/ out/gallery/images/ out/news/images/ )
+
+    files = FileList.new images_list(gallery_folders, supported_image_types)
+    #files = FileList.new('out/**/*') do |fl|
+    #  fl.include('out/gallery/images/**/*', 'out/news/images/**/*', 'out/cars/images/**/*', 'out/drivers/images/**/*')
+      #fl.include(/\.jpg$|\.jpeg$|\.JPG|\.gif$|\.png$|\.PNG/)
+     # fl.exclude('out/**/*.txt', 'out/**/*.html' 'out/**/*.css')
+    #end
+
+    puts files
+
     create_thumbnails files
   end
   
