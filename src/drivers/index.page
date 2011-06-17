@@ -21,12 +21,12 @@ In der Saison 2011 startet RaceCar erstmals in der AutoForm VirtualRacingSeries.
 
 h4. Fahrer
 
-* #-- {link: /drivers/fredrich.html}
-* #-- Dirk Schnabel
+* #__ {link: /drivers/fredrich.html}
+* #__ {link: /drivers/schnabel.html}
 
 h4. Fahrzeug
 
-Als Einsatzfahrzeug der 12 Teams mit je zwei Fahrern steht der bewährte AUDI R8 Concept aus der Rennsimulation GTR Evolution bereit. Die von der Firma AutoForm eingeladenen Firmen werden wie gewohnt die Optik der Boliden bestimmen.
+"Als Einsatzfahrzeug der 12 Teams mit je zwei Fahrern steht der bewährte AUDI R8 Concept aus der Rennsimulation GTR Evolution bereit. Die von der Firma AutoForm eingeladenen Firmen werden wie gewohnt die Optik der Boliden bestimmen."
 
 h3. Pro Racer WTCC
 
@@ -34,8 +34,9 @@ h3. Pro Racer WTCC
 
 h4. Fahrer
 
-* #-- {link: /drivers/fredrich.html}
-* #-- {link: /drivers/schoenhofen.html}
+* #__ {link: /drivers/fredrich.html}
+* #__ {link: /drivers/schoenhofen.html}
+* #__ Dennis Schmidt
 
 h4. Fahrzeug
 
