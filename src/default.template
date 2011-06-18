@@ -37,11 +37,12 @@
         <webgen:block name="content" />
         
         <ul class="linklist">
-          <li><a href="http://www.ctdp.net"><img src="{relocatable: /images/ctdp_rc_logo.png}" /></a></li>
-          <li><a href="http://www.si-technics.de" ><img src="{relocatable: /images/si_rc_logo.png}" style="margin-bottom: 18px;" /></a></li>
-          <li><a href="http://www.endurancefactory.de"><img src="{relocatable: /images/ef_rc_logo.png}"  style="margin-bottom: 18px;" /></a></li>
-          <li><a href="http://www.danielprogramming.com"><img src="{relocatable: /images/danielprogramming_rc_logo.png}" style="margin-bottom: 18px;" /></a></li>
-        </ul>
+          <li><a href="http://www.ctdp.net"><img src="{relocatable: /images/ctdp_rc_logo.png}"style="margin-bottom: 0px;" /></a></li>
+          <li><a href="http://www.danielprogramming.com"><img src="{relocatable: /images/danielprogramming_rc_logo.png}" style="margin-bottom: 20px;" /></a></li>
+          <li><a href="http://www.si-technics.de" ><img src="{relocatable: /images/si_rc_logo.png}" style="margin-bottom: 20px;" /></a></li>
+          <!--<li><a href="http://www.endurancefactory.de"><img src="{relocatable: /images/ef_rc_logo.png}"  style="margin-bottom: 18px;" /></a></li>-->
+          <li><a href="http://www.avrs-online.de"><img src="{relocatable: /images/avrs_rc_logo.png}" style="margin-bottom: 18px;" /></a></li>
+          <li><a href="http://www.pro-racer.de"><img src="{relocatable: /images/pr_rc_logo.png}" style="margin-bottom: 18px;" /></a></li>
       </div>
 
       <div id="sidebar">
