@@ -24,20 +24,36 @@ h4. Fahrer
 * #__ {link: /drivers/fredrich.html}
 * #__ {link: /drivers/schnabel.html}
 
+* #E1 {link: /newdriver.html}
+* #E2 {link: /drivers/schoenhofen.html}
+
 h4. Fahrzeug
 
 "Als Einsatzfahrzeug der 12 Teams mit je zwei Fahrern steht der bewährte AUDI R8 Concept aus der Rennsimulation GTR Evolution bereit. Die von der Firma AutoForm eingeladenen Firmen werden wie gewohnt die Optik der Boliden bestimmen."
 
 h3. Pro Racer WTCC
 
-2011 startet RaceCar in die zweite Saison der Pro Racer WTCC Meisterschaft.
+2011 startet RaceCar in die zweite Saison der Pro Racer WTCC Meisterschaft. 2010 debütierten wir mit drei Chevrolet Lacetti und einem BMW 320si. Daniel Fredrich erreichte den 6. Rang der Meisterschaft obwohl er bei fünf Rennen nicht antrat. Dennis Schmidt erreichte direkt dahinter Position 7.
 
 h4. Fahrer
 
-* #__ {link: /drivers/fredrich.html}
-* #__ {link: /drivers/schoenhofen.html}
-* #__ Dennis Schmidt
+* #20 {link: /drivers/fredrich.html} - BMW 320TC
+* #21 {link: /drivers/jruden.html} - BMW 320TC
+* #25 {link: /drivers/schoenhofen.html} - BMW 320TC
+* #74 {link: /drivers/schmidt.html} - SR León 1.6T
 
 h4. Fahrzeug
 
-RaceCar startet mit zwei BMW 320TC und einem Seat Leon.
+RaceCar startet mit drei BMW 320TC und einem SR León.
+
+h3. PSX-Racing DRM Reloaded
+
+In der DRM Reloaded Serie wird mit Autos der 70er Jahre gefahren. BMW M1, Porsche 935 oder Ford Capri Turbo kämpfen um Platzierungen. Auf Initiative Mario Rudens startet RaceCar damit zum ersten Mal im historischen Motorsport.
+
+h4. Fahrer
+
+* #__ {link: /drivers/mruden.html}
+
+h4. Fahrzeug
+
+Die Wahl des Fahrzeuges steht noch aus.
