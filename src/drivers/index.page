@@ -40,11 +40,11 @@ h4. Fahrer
 * #20 {link: /drivers/fredrich.html} - BMW 320TC
 * #21 {link: /drivers/jruden.html} - BMW 320TC
 * #25 {link: /drivers/schoenhofen.html} - BMW 320TC
-* #74 {link: /drivers/schmidt.html} - SR León 1.6T
+* #30 {link: /drivers/schmidt.html} - Volvo C30 Drive
 
 h4. Fahrzeug
 
-RaceCar startet mit drei BMW 320TC und einem SR León.
+RaceCar startet mit drei BMW 320TC und einem Volvo C30 Drive.
 
 h3. PSX-Racing DRM Reloaded
 
@@ -53,7 +53,8 @@ In der DRM Reloaded Serie wird mit Autos der 70er Jahre gefahren. BMW M1, Porsch
 h4. Fahrer
 
 * #__ {link: /drivers/mruden.html}
+* #__ {link: /drivers/jruden.html}
 
 h4. Fahrzeug
 
-Die Wahl des Fahrzeuges steht noch aus.
+RaceCar startet mit dem legendären BMW M1.
