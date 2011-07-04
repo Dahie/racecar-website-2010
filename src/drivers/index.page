@@ -37,14 +37,15 @@ h3. Pro Racer WTCC
 
 h4. Fahrer
 
+* #9 {link: /drivers/schmidt.html} - Chevrolet Cruze
+* #10 {link: /drivers/schnabel.html} - Chevrolet Cruze
 * #20 {link: /drivers/fredrich.html} - BMW 320TC
 * #21 {link: /drivers/jruden.html} - BMW 320TC
 * #25 {link: /drivers/schoenhofen.html} - BMW 320TC
-* #30 {link: /drivers/schmidt.html} - Volvo C30 Drive
 
 h4. Fahrzeug
 
-RaceCar startet mit drei BMW 320TC und einem Volvo C30 Drive.
+In der Saison 2011/2012 startet RaceCar mit zwei Chevrolet Cruze und drei BMW 320TC.
 
 h3. PSX-Racing DRM Reloaded
 
@@ -52,7 +53,7 @@ In der DRM Reloaded Serie wird mit Autos der 70er Jahre gefahren. BMW M1, Porsch
 
 h4. Fahrer
 
-* #__ {link: /drivers/mruden.html}
+* #84 {link: /drivers/mruden.html}
 * #__ {link: /drivers/jruden.html}
 
 h4. Fahrzeug
