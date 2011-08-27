@@ -5,7 +5,7 @@ routed_title: Autos
 ---
 h2. Autos
 
-h3. Formel 1
+h3. Formelwagen
 
 <div class="styled_list">
 *(#rc14) {link: /cars/rc-14.html}
@@ -17,15 +17,26 @@ h3. Formel 1
 *(#rc07) {link: /cars/rc-07.html}
 </div>
 
-h3. Sport- und Tourenwagen
+h3. Sportwagen
 
 <div class="styled_list">
-*(#rc11avrs) {link: /cars/rc-11-avrs.html}
+*(#rc11af) {link: /cars/rc-11-af.html}
 *(#rc11ef) {link: /cars/rc-11-ef.html}
 *(#rc10ef) {link: /cars/rc-10-ef.html}
-*(#rc09cy) {link: /cars/rc-09-cy.html}
 *(#rc01gt) {link: /cars/rc-01-gt.html}
+</div>
+
+h3. Tourenwagen
+
+<div class="styled_list">
+*(#rc09cy) {link: /cars/rc-09-cy.html}
 *(#rc01nc) {link: /cars/rc-01-nc.html}
+</div>
+
+h3. Historische Fahrzeuge
+
+<div class="styled_list">
+*(#rc11rm) {link: /cars/rc-11-rm.html}
 </div>
 
 h3. Testfahrzeuge
