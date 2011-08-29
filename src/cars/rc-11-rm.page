@@ -9,3 +9,4 @@ Seit 2011 starten Jens und Mario Ruden in der DRM Reloaded von PSX-Racing. Die b
 h3. Galerie
 
 <%= gallery_image('images/RC-11-RM/i8e5-1.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-RM/i8e5-2.jpg', :rel => 'lightbox rel1') %>

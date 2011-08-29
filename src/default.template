@@ -53,41 +53,36 @@
         
         <table class="standings">
           <tr>
-            <td colspan=3><b>GT Travel Fahrerwertung</b></td>
+            <td colspan=3><b>AVRS Fahrerwertung</b></td>
           </tr>
           <tr>
             <td>1.</td>
-            <td>David Putzke</td>
-            <td>179</td>
+            <td>Michael Bräutigam</td>
+            <td>28</td>
           </tr>
           <tr>
             <td>2.</td>
-            <td>Danny Schubert</td>
-            <td>141</td>
+            <td>Marcel Wenicke</td>
+            <td>26</td>
           </tr>          <tr>
             <td>3.</td>
-            <td>Martin Putzke</td>
-            <td>131</td>
-          </tr>
-          <tr class="highlight">
-            <td>4.</td>
-            <td>Daniel Fredrich</td>
-            <td>109</td>
+            <td>Markus Heger</td>
+            <td>23</td>
           </tr>
           <tr>
-            <td>5.</td>
-            <td>Peter Enders</td>
-            <td>88</td>
+            <td>8.</td>
+            <td>Sören Schuster</td>
+            <td>16</td>
           </tr>
           <tr class="highlight">
-            <td>13.</td>
-            <td>Mario Ruden</td>
-            <td>25</td>
+            <td>9.</td>
+            <td>Daniel Fredrich</td>
+            <td>15</td>
           </tr>
-          <tr class="highlight">
-            <td>16.</td>
-            <td>Jens Ruden</td>
-            <td>22</td>
+          <tr>
+            <td>10.</td>
+            <td>Matthias Enke</td>
+            <td>14</td>
           </tr>
 
           <tr>
@@ -95,42 +90,42 @@
             </td>
           </tr>
           <tr>
-            <td colspan=3><b>GT Travel Teamwertung</b></td>
+            <td colspan=3><b>AVRS Teamwertung</b></td>
           </tr>
           <tr>
             <td>1.</td>
-            <td>Independ. SimRacer 3</td>
-            <td>272</td>
+            <td>Trinklein Werkzeugbau</td>
+            <td>49</td>
           </tr>
           <tr>
             <td>2.</td>
-            <td>Independ. SimRacer 1</td>
-            <td>212</td>
+            <td>Fritzmeier</td>
+            <td>38</td>
           </tr>
           <tr>
             <td>3.</td>
-            <td>Mad-Croc Racing</td>
-            <td>162</td>
-          </tr>
-          <tr class="highlight">
-            <td>4.</td>
-            <td>RaceCar</td>
-            <td>134</td>
+            <td>GIW</td>
+            <td>36</td>
           </tr>
           <tr>
-            <td>5.</td>
-            <td>Independ. Sim-Racer 2</td>
-            <td>102</td>
-          </tr>
-          <tr>
-            <td>6.</td>
-            <td>Schniep</td>
-            <td>65</td>
+            <td>7.</td>
+            <td>FMF</td>
+            <td>24</td>
           </tr>
           <tr class="highlight">
-            <td>11.</td>
-            <td>RaceCar II</td>
-            <td>22</td>
+            <td>8.</td>
+            <td>Siebenwurst RaceCar</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>9.</td>
+            <td>EBZ</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>10.</td>
+            <td>Waitkus</td>
+            <td>11</td>
           </tr>
         </table>
 

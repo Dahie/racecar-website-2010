@@ -8,6 +8,7 @@ In der AVRS wird mit einheitlichen R8 nach GT1 Reglement gefahren. Die V8 Motore
 
 h3. Galerie
 
-<%= gallery_image('images/RC-11-AVRS/pic_5.jpg', :rel => 'lightbox rel1') %>
-<%= gallery_image('images/RC-11-AVRS/pic_8.jpg', :rel => 'lightbox rel1') %>
-<%= gallery_image('images/RC-11-AVRS/pic_3.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-AF/pic_5.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-AF/pic_8.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-AF/pic_3.jpg', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-11-AF/r8_5.jpg', :rel => 'lightbox rel1') %>
