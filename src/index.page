@@ -9,6 +9,8 @@ link:
 ---
 h2. Willkommen bei RaceCar
 
-RaceCar ist ein virtuelles Motorsport-Team, das seit vielen Jahren in Online-Ligen verschiedener Rennsimulationen aktiv ist. Zur Zeit starten wir in der in der AutoForm Virtual Racing Series, der F1CS DTM und der Pro-Racer WTCC.
+Die auffälligste Eigenschaft, die uns Simracingbegeisterte mit den Akteuren des realen Motorsports verbindet, ist die Begeisterung für den Rennsport. Wir erfreuen uns an spannenden Rennen, dem Wettbewerb zwischen den besten Rennfahrern der Welt und vielen anderen Facetten dieses faszinierenden Sports. Leider mussten wir nun innerhalb kürzester Zeit erleben, wie zwei Rennfahrer bei unserer großen Leidenschaft ihr Leben lassen mussten. Unsere Gedanken sind bei den Angehörigen von Dan Wheldon und Marco Simoncelli.
+Hoffentlich bleiben sie die letzten, die wirklich alles für den Motorsport geben mussten.
+
 
 <webgen:block name='content' chain='/news/news_entry.template; /news/release_11_10_20_pr.html' />
