@@ -9,8 +9,10 @@ link:
 ---
 h2. Willkommen bei RaceCar
 
+h3. Dan Wheldon und Marco Simoncelli
+
 Die auffälligste Eigenschaft, die uns Simracingbegeisterte mit den Akteuren des realen Motorsports verbindet, ist die Begeisterung für den Rennsport. Wir erfreuen uns an spannenden Rennen, dem Wettbewerb zwischen den besten Rennfahrern der Welt und vielen anderen Facetten dieses faszinierenden Sports. Leider mussten wir nun innerhalb kürzester Zeit erleben, wie zwei Rennfahrer bei unserer großen Leidenschaft ihr Leben lassen mussten. Unsere Gedanken sind bei den Angehörigen von Dan Wheldon und Marco Simoncelli.
 Hoffentlich bleiben sie die letzten, die wirklich alles für den Motorsport geben mussten.
 
 
-<webgen:block name='content' chain='/news/news_entry.template; /news/release_11_10_28_avrs.html' />
+<webgen:block name='content' chain='/news/news_entry.template; /news/release_11_11_02_avrs.html' />

@@ -40,10 +40,11 @@
           <li><a href="http://www.ctdp.net"><img src="{relocatable: /images/ctdp_rc_logo.png}"style="margin-bottom: 0px;" /></a></li>
           <li><a href="http://www.danielprogramming.com"><img src="{relocatable: /images/danielprogramming_rc_logo.png}" style="margin-bottom: 20px;" /></a></li>
           <li><a href="http://www.si-technics.de" ><img src="{relocatable: /images/si_rc_logo.png}" style="margin-bottom: 20px;" /></a></li>
-          <!--<li><a href="http://www.endurancefactory.de"><img src="{relocatable: /images/ef_rc_logo.png}"  style="margin-bottom: 18px;" /></a></li>-->
+          <li><a href="http://www.endurancefactory.de"><img src="{relocatable: /images/ef_rc_logo.png}"  style="margin-bottom: 18px;" /></a></li>
           <li><a href="http://www.avrs-online.de"><img src="{relocatable: /images/avrs_rc_logo.png}" style="margin-bottom: 18px;" /></a></li>
           <li><a href="http://www.pro-racer.de"><img src="{relocatable: /images/pr_rc_logo.png}" style="margin-bottom: 18px;" /></a></li>
-      </div>
+        </ul>
+    </div>
 
       <div id="sidebar">
         <a href="{relocatable: /index.html}"><img src="{relocatable: /images/rc-logo.png}" /></a>
@@ -58,32 +59,32 @@
           <tr>
             <td>1.</td>
             <td>Sascha Glatter</td>
-            <td>125</td>
+            <td>155</td>
           </tr>
           <tr>
             <td>2.</td>
-            <td>Michael Bräutigam</td>
-            <td>111</td>
+            <td>Sören Schuster</td>
+            <td>112</td>
           </tr>
           <tr>
             <td>3.</td>
-            <td>Sören Schuster</td>
-            <td>95</td>
+            <td>Michael Bräutigam</td>
+            <td>111</td>
+          </tr>
+          <tr class="highlight">
+            <td>4.</td>
+            <td>Daniel Fredrich</td>
+            <td>97</td>
           </tr>
           <tr>
-            <td>4.</td>
+            <td>5.</td>
             <td>Markus Heger</td>
             <td>89</td>
           </tr>
           <tr>
-            <td>5.</td>
-            <td>Mirko Wenzel</td>
-            <td>78</td>
-          </tr>
-          <tr class="highlight">
             <td>6.</td>
-            <td>Daniel Fredrich</td>
-            <td>76</td>
+            <td>Mirko Wenzel</td>
+            <td>89</td>
           </tr>
 
           <tr>
@@ -96,37 +97,37 @@
           <tr>
             <td>1.</td>
             <td>Fritzmeier</td>
-            <td>220</td>
+            <td>267</td>
           </tr>
           <tr>
             <td>2.</td>
             <td>Trinklein Werkzeugbau</td>
-            <td>189</td>
+            <td>221</td>
           </tr>
           <tr>
             <td>3.</td>
-            <td>Labermeyer&Hamberger</td>
-            <td>171</td>
+            <td>GIW</td>
+            <td>211</td>
           </tr>
           <tr>
             <td>6.</td>
-            <td>C-Con</td>
-            <td>106</td>
+            <td>Waitkus</td>
+            <td>132</td>
           </tr>
           <tr>
             <td>7.</td>
-            <td>Waitkus</td>
-            <td>104</td>
+            <td>C-Con</td>
+            <td>125</td>
           </tr>
           <tr class="highlight">
             <td>8.</td>
             <td>SWZ RaceCar</td>
-            <td>97</td>
+            <td>122</td>
           </tr>
           <tr>
             <td>9.</td>
             <td>FMF</td>
-            <td>82</td>
+            <td>110</td>
           </tr>
         </table>
 
@@ -136,8 +137,8 @@
         <ul class="linklist" style="display:none;">
           <li><a href="http://www.ctdp.net"><img src="{relocatable: /images/avrs_rc_logo.png}"></a></li>
           <li><a href="http://www.si-technics.de"><img src="{relocatable: /images/pr_rc_logo.png}"></a></li>
-          <!--<li><a href="http://www.dstm-racing.de"><img src="{relocatable: /images/dstm_rc_logo.png}"></a></li>-->
-          <!--<li><a href="http://www.danielprogramming.com"><b>DanielProgramming.com</b></a></li>-->
+          <li><a href="http://www.dstm-racing.de"><img src="{relocatable: /images/dstm_rc_logo.png}"></a></li>
+          <li><a href="http://www.danielprogramming.com"><b>DanielProgramming.com</b></a></li>
         </ul>
 
       </div>
