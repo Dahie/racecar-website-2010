@@ -15,4 +15,4 @@ Die auffälligste Eigenschaft, die uns Simracingbegeisterte mit den Akteuren des
 Hoffentlich bleiben sie die letzten, die wirklich alles für den Motorsport geben mussten.
 
 
-<webgen:block name='content' chain='/news/news_entry.template; /news/release_11_11_11_dtm.html' />
+<webgen:block name='content' chain='/news/news_entry.template; /news/release_11_11_16_avrs.html' />
