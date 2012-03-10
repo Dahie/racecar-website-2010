@@ -52,7 +52,7 @@
         <div id="menu">{menu: {max_levels: 1, used_nodes: files}}</div>
         <a class="hide" href="#top" accesskey="1">Top of page</a>
         
-        <table class="standings">
+        <!--<table class="standings">
           <tr>
             <td colspan=3><b>AVRS Fahrerwertung</b></td>
           </tr>
@@ -129,7 +129,7 @@
             <td>FMF</td>
             <td>116</td>
           </tr>
-        </table>
+        </table>-->
 
         <h3 style="display:none;">Partner</h3>
           
