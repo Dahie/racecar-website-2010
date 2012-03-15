@@ -1,0 +1,18 @@
+---
+title: RaceCar RC-15
+in_menu: true
+routed_title: Autos
+---
+h2. RaceCar RC-15
+
+Ganze 8 Jahre nach dem Debut des RC-14 folgt mit dem RaceCar RC-15 das Comeback im Formelsport. Für den Einstieg in die Deutsche Simracing Formel Meisterschaft wurde der Wagen von Daniel Fredrich und Dennis Schmidt völlig neu gestaltet. Große Designanleihen nimmt der erste RaceCar mit KERS von den Langstreckenautos RC-11-EF. 
+
+h3. Galerie
+
+<%= gallery_image('images/RC-15/GRAB_015.JPG', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-15/GRAB_016.JPG', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-15/GRAB_019.JPG', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-15/GRAB_022.JPG', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-15/GRAB_023.JPG', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-15/GRAB_024.JPG', :rel => 'lightbox rel1') %>
+<%= gallery_image('images/RC-15/GRAB_026.JPG', :rel => 'lightbox rel1') %>
