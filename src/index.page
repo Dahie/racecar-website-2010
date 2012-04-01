@@ -9,4 +9,4 @@ link:
 ---
 h2. Willkommen bei RaceCar
 
-<webgen:block name='content' chain='/news/news_entry.template; /news/release_12_03_18_dsfm.html' />
+<webgen:block name='content' chain='/news/news_entry.template; /news/release_12_04_01_dsfm.html' />
