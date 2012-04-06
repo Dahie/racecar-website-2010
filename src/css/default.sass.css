@@ -194,6 +194,8 @@ p
         -webkit-border-radius: 3px
         &:hover
           border-color: $racecar_cyan
+        &#rc15
+          background: url(../cars/images/RC-15/GRAB_015_thumbnail.JPG) no-repeat center center
         &#rc14
           background: url(../cars/images/RC-14/GP4/103_thumbnail.jpg) no-repeat center center
         &#rc13
